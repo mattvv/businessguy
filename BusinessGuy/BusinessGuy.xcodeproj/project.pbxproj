@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B216B87615E8040B002C10F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216B87515E8040B002C10F3 /* UIKit.framework */; };
+		B216B87815E8040B002C10F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216B87715E8040B002C10F3 /* Foundation.framework */; };
+		B216B87A15E8040B002C10F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216B87915E8040B002C10F3 /* CoreGraphics.framework */; };
+		B216B88015E8040B002C10F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B216B87E15E8040B002C10F3 /* InfoPlist.strings */; };
+		B216B88215E8040B002C10F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B216B88115E8040B002C10F3 /* main.m */; };
+		B216B88615E8040B002C10F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B216B88515E8040B002C10F3 /* AppDelegate.m */; };
+		B216B88915E8040B002C10F3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B216B88715E8040B002C10F3 /* MainStoryboard.storyboard */; };
+		B216B8CE15E808C7002C10F3 /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = B216B8CD15E808C7002C10F3 /* Contacts.m */; };
+		B216B8D015E8090B002C10F3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216B8CF15E8090B002C10F3 /* AddressBook.framework */; };
+		B21D58C0166F0E2400A1F2B0 /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D58BF166F0E2400A1F2B0 /* Events.m */; };
+		B21D58C3166F0E3200A1F2B0 /* Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D58C2166F0E3200A1F2B0 /* Snapshot.m */; };
+		B21D58C7166F0F7E00A1F2B0 /* UIApplication+BusinessGuy.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D58C6166F0F7E00A1F2B0 /* UIApplication+BusinessGuy.m */; };
+		B21D58CB166F1E6700A1F2B0 /* ABPersonViewController+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D58CA166F1E6700A1F2B0 /* ABPersonViewController+Extras.m */; };
+		B21D58D0166F231600A1F2B0 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B21D58CD166F231600A1F2B0 /* SVProgressHUD.bundle */; };
+		B21D58D1166F231600A1F2B0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D58CF166F231600A1F2B0 /* SVProgressHUD.m */; };
+		B23D84FC160E334F0099FFE3 /* InputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B23D84FB160E334F0099FFE3 /* InputCell.m */; };
+		B23D8504160E39890099FFE3 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B23D8503160E39890099FFE3 /* DetailCell.m */; };
+		B2AAECED161A844B004D162F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AAECEC161A844B004D162F /* AddressBookUI.framework */; };
+		B2E7673715E81BCB000EB062 /* ABPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7673615E81BCB000EB062 /* ABPerson.m */; };
+		B2E7673D15E82957000EB062 /* ABPersonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7673C15E82957000EB062 /* ABPersonCell.m */; };
+		B2E7678315E83884000EB062 /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7678215E83884000EB062 /* CameraImageHelper.m */; };
+		B2E7678615E83910000EB062 /* Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7678515E83910000EB062 /* Orientation.m */; };
+		B2E7678915E8394F000EB062 /* UIImage-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7678815E8394F000EB062 /* UIImage-Utilities.m */; };
+		B2E7678B15E8397A000EB062 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E7678A15E8397A000EB062 /* CoreImage.framework */; };
+		B2E7678D15E83992000EB062 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E7678C15E83992000EB062 /* QuartzCore.framework */; };
+		B2E7678F15E83996000EB062 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E7678E15E83996000EB062 /* CoreMedia.framework */; };
+		B2E7679115E8399A000EB062 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E7679015E8399A000EB062 /* CoreVideo.framework */; };
+		B2E7679315E839A5000EB062 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E7679215E839A5000EB062 /* AVFoundation.framework */; };
+		B2E7679615E848F8000EB062 /* AddressBookSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7679515E848F8000EB062 /* AddressBookSingleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B216B87115E8040B002C10F3 /* BusinessGuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessGuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B216B87515E8040B002C10F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B216B87715E8040B002C10F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B216B87915E8040B002C10F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B216B87D15E8040B002C10F3 /* BusinessGuy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BusinessGuy-Info.plist"; sourceTree = "<group>"; };
+		B216B87F15E8040B002C10F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B216B88115E8040B002C10F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B216B88315E8040B002C10F3 /* BusinessGuy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BusinessGuy-Prefix.pch"; sourceTree = "<group>"; };
+		B216B88415E8040B002C10F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B216B88515E8040B002C10F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B216B88815E8040B002C10F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B216B89E15E8040B002C10F3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B216B8CC15E808C7002C10F3 /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		B216B8CD15E808C7002C10F3 /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
+		B216B8CF15E8090B002C10F3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B21D58BE166F0E2400A1F2B0 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		B21D58BF166F0E2400A1F2B0 /* Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Events.m; sourceTree = "<group>"; };
+		B21D58C1166F0E3200A1F2B0 /* Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snapshot.h; sourceTree = "<group>"; };
+		B21D58C2166F0E3200A1F2B0 /* Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snapshot.m; sourceTree = "<group>"; };
+		B21D58C5166F0F7E00A1F2B0 /* UIApplication+BusinessGuy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+BusinessGuy.h"; sourceTree = "<group>"; };
+		B21D58C6166F0F7E00A1F2B0 /* UIApplication+BusinessGuy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+BusinessGuy.m"; sourceTree = "<group>"; };
+		B21D58C9166F1E6700A1F2B0 /* ABPersonViewController+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABPersonViewController+Extras.h"; sourceTree = "<group>"; };
+		B21D58CA166F1E6700A1F2B0 /* ABPersonViewController+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ABPersonViewController+Extras.m"; sourceTree = "<group>"; };
+		B21D58CD166F231600A1F2B0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		B21D58CE166F231600A1F2B0 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		B21D58CF166F231600A1F2B0 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		B23D84FA160E334F0099FFE3 /* InputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCell.h; sourceTree = "<group>"; };
+		B23D84FB160E334F0099FFE3 /* InputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCell.m; sourceTree = "<group>"; };
+		B23D8502160E39890099FFE3 /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
+		B23D8503160E39890099FFE3 /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
+		B2AAECEC161A844B004D162F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		B2E7673515E81BCB000EB062 /* ABPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPerson.h; sourceTree = "<group>"; };
+		B2E7673615E81BCB000EB062 /* ABPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPerson.m; sourceTree = "<group>"; };
+		B2E7673B15E82957000EB062 /* ABPersonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPersonCell.h; sourceTree = "<group>"; };
+		B2E7673C15E82957000EB062 /* ABPersonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPersonCell.m; sourceTree = "<group>"; };
+		B2E7678115E83884000EB062 /* CameraImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraImageHelper.h; sourceTree = "<group>"; };
+		B2E7678215E83884000EB062 /* CameraImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraImageHelper.m; sourceTree = "<group>"; };
+		B2E7678415E83910000EB062 /* Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orientation.h; sourceTree = "<group>"; };
+		B2E7678515E83910000EB062 /* Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Orientation.m; sourceTree = "<group>"; };
+		B2E7678715E8394E000EB062 /* UIImage-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Utilities.h"; sourceTree = "<group>"; };
+		B2E7678815E8394F000EB062 /* UIImage-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Utilities.m"; sourceTree = "<group>"; };
+		B2E7678A15E8397A000EB062 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		B2E7678C15E83992000EB062 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B2E7678E15E83996000EB062 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B2E7679015E8399A000EB062 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B2E7679215E839A5000EB062 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B2E7679415E848F8000EB062 /* AddressBookSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookSingleton.h; sourceTree = "<group>"; };
+		B2E7679515E848F8000EB062 /* AddressBookSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookSingleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B216B86E15E8040A002C10F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AAECED161A844B004D162F /* AddressBookUI.framework in Frameworks */,
+				B2E7679315E839A5000EB062 /* AVFoundation.framework in Frameworks */,
+				B2E7679115E8399A000EB062 /* CoreVideo.framework in Frameworks */,
+				B2E7678F15E83996000EB062 /* CoreMedia.framework in Frameworks */,
+				B2E7678D15E83992000EB062 /* QuartzCore.framework in Frameworks */,
+				B2E7678B15E8397A000EB062 /* CoreImage.framework in Frameworks */,
+				B216B8D015E8090B002C10F3 /* AddressBook.framework in Frameworks */,
+				B216B87615E8040B002C10F3 /* UIKit.framework in Frameworks */,
+				B216B87815E8040B002C10F3 /* Foundation.framework in Frameworks */,
+				B216B87A15E8040B002C10F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B216B86615E8040A002C10F3 = {
+			isa = PBXGroup;
+			children = (
+				B216B87B15E8040B002C10F3 /* BusinessGuy */,
+				B216B87415E8040B002C10F3 /* Frameworks */,
+				B216B87215E8040B002C10F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B216B87215E8040B002C10F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B216B87115E8040B002C10F3 /* BusinessGuy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B216B87415E8040B002C10F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2AAECEC161A844B004D162F /* AddressBookUI.framework */,
+				B2E7679215E839A5000EB062 /* AVFoundation.framework */,
+				B2E7679015E8399A000EB062 /* CoreVideo.framework */,
+				B2E7678E15E83996000EB062 /* CoreMedia.framework */,
+				B2E7678C15E83992000EB062 /* QuartzCore.framework */,
+				B2E7678A15E8397A000EB062 /* CoreImage.framework */,
+				B216B8CF15E8090B002C10F3 /* AddressBook.framework */,
+				B216B87515E8040B002C10F3 /* UIKit.framework */,
+				B216B87715E8040B002C10F3 /* Foundation.framework */,
+				B216B87915E8040B002C10F3 /* CoreGraphics.framework */,
+				B216B89E15E8040B002C10F3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B216B87B15E8040B002C10F3 /* BusinessGuy */ = {
+			isa = PBXGroup;
+			children = (
+				B21D58CC166F231600A1F2B0 /* SVProgressHUD */,
+				B21D58C8166F1E4E00A1F2B0 /* Categories */,
+				B21D58C4166F0F6900A1F2B0 /* Events */,
+				B21D58BC166F0E0800A1F2B0 /* Singletons */,
+				B2E7678015E83867000EB062 /* CameraHelpers */,
+				B2E7673A15E82919000EB062 /* TableViewCells */,
+				B2E7673915E81FF7000EB062 /* Models */,
+				B216B8CB15E808B1002C10F3 /* ViewControllers */,
+				B216B88415E8040B002C10F3 /* AppDelegate.h */,
+				B216B88515E8040B002C10F3 /* AppDelegate.m */,
+				B216B88715E8040B002C10F3 /* MainStoryboard.storyboard */,
+				B216B87C15E8040B002C10F3 /* Supporting Files */,
+				B2E7679415E848F8000EB062 /* AddressBookSingleton.h */,
+				B2E7679515E848F8000EB062 /* AddressBookSingleton.m */,
+			);
+			path = BusinessGuy;
+			sourceTree = "<group>";
+		};
+		B216B87C15E8040B002C10F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B216B87D15E8040B002C10F3 /* BusinessGuy-Info.plist */,
+				B216B87E15E8040B002C10F3 /* InfoPlist.strings */,
+				B216B88115E8040B002C10F3 /* main.m */,
+				B216B88315E8040B002C10F3 /* BusinessGuy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B216B8CB15E808B1002C10F3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B216B8CC15E808C7002C10F3 /* Contacts.h */,
+				B216B8CD15E808C7002C10F3 /* Contacts.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B21D58BC166F0E0800A1F2B0 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				B21D58BE166F0E2400A1F2B0 /* Events.h */,
+				B21D58BF166F0E2400A1F2B0 /* Events.m */,
+				B21D58C1166F0E3200A1F2B0 /* Snapshot.h */,
+				B21D58C2166F0E3200A1F2B0 /* Snapshot.m */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		B21D58C4166F0F6900A1F2B0 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				B21D58C5166F0F7E00A1F2B0 /* UIApplication+BusinessGuy.h */,
+				B21D58C6166F0F7E00A1F2B0 /* UIApplication+BusinessGuy.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		B21D58C8166F1E4E00A1F2B0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B21D58C9166F1E6700A1F2B0 /* ABPersonViewController+Extras.h */,
+				B21D58CA166F1E6700A1F2B0 /* ABPersonViewController+Extras.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		B21D58CC166F231600A1F2B0 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B21D58CD166F231600A1F2B0 /* SVProgressHUD.bundle */,
+				B21D58CE166F231600A1F2B0 /* SVProgressHUD.h */,
+				B21D58CF166F231600A1F2B0 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = SOURCE_ROOT;
+		};
+		B2E7673915E81FF7000EB062 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7673515E81BCB000EB062 /* ABPerson.h */,
+				B2E7673615E81BCB000EB062 /* ABPerson.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B2E7673A15E82919000EB062 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7673B15E82957000EB062 /* ABPersonCell.h */,
+				B2E7673C15E82957000EB062 /* ABPersonCell.m */,
+				B23D84FA160E334F0099FFE3 /* InputCell.h */,
+				B23D84FB160E334F0099FFE3 /* InputCell.m */,
+				B23D8502160E39890099FFE3 /* DetailCell.h */,
+				B23D8503160E39890099FFE3 /* DetailCell.m */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		B2E7678015E83867000EB062 /* CameraHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7678115E83884000EB062 /* CameraImageHelper.h */,
+				B2E7678215E83884000EB062 /* CameraImageHelper.m */,
+				B2E7678415E83910000EB062 /* Orientation.h */,
+				B2E7678515E83910000EB062 /* Orientation.m */,
+				B2E7678715E8394E000EB062 /* UIImage-Utilities.h */,
+				B2E7678815E8394F000EB062 /* UIImage-Utilities.m */,
+			);
+			name = CameraHelpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B216B87015E8040A002C10F3 /* BusinessGuy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B216B8AF15E8040B002C10F3 /* Build configuration list for PBXNativeTarget "BusinessGuy" */;
+			buildPhases = (
+				B216B86D15E8040A002C10F3 /* Sources */,
+				B216B86E15E8040A002C10F3 /* Frameworks */,
+				B216B86F15E8040A002C10F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusinessGuy;
+			productName = BusinessGuy;
+			productReference = B216B87115E8040B002C10F3 /* BusinessGuy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B216B86815E8040A002C10F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Matt Van Veenendaal";
+			};
+			buildConfigurationList = B216B86B15E8040A002C10F3 /* Build configuration list for PBXProject "BusinessGuy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B216B86615E8040A002C10F3;
+			productRefGroup = B216B87215E8040B002C10F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B216B87015E8040A002C10F3 /* BusinessGuy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B216B86F15E8040A002C10F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B216B88015E8040B002C10F3 /* InfoPlist.strings in Resources */,
+				B216B88915E8040B002C10F3 /* MainStoryboard.storyboard in Resources */,
+				B21D58D0166F231600A1F2B0 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B216B86D15E8040A002C10F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B216B88215E8040B002C10F3 /* main.m in Sources */,
+				B216B88615E8040B002C10F3 /* AppDelegate.m in Sources */,
+				B216B8CE15E808C7002C10F3 /* Contacts.m in Sources */,
+				B2E7673715E81BCB000EB062 /* ABPerson.m in Sources */,
+				B2E7673D15E82957000EB062 /* ABPersonCell.m in Sources */,
+				B2E7678315E83884000EB062 /* CameraImageHelper.m in Sources */,
+				B2E7678615E83910000EB062 /* Orientation.m in Sources */,
+				B2E7678915E8394F000EB062 /* UIImage-Utilities.m in Sources */,
+				B2E7679615E848F8000EB062 /* AddressBookSingleton.m in Sources */,
+				B23D84FC160E334F0099FFE3 /* InputCell.m in Sources */,
+				B23D8504160E39890099FFE3 /* DetailCell.m in Sources */,
+				B21D58C0166F0E2400A1F2B0 /* Events.m in Sources */,
+				B21D58C3166F0E3200A1F2B0 /* Snapshot.m in Sources */,
+				B21D58C7166F0F7E00A1F2B0 /* UIApplication+BusinessGuy.m in Sources */,
+				B21D58CB166F1E6700A1F2B0 /* ABPersonViewController+Extras.m in Sources */,
+				B21D58D1166F231600A1F2B0 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B216B87E15E8040B002C10F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B216B87F15E8040B002C10F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B216B88715E8040B002C10F3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B216B88815E8040B002C10F3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B216B8AD15E8040B002C10F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B216B8AE15E8040B002C10F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B216B8B015E8040B002C10F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusinessGuy/BusinessGuy-Prefix.pch";
+				INFOPLIST_FILE = "BusinessGuy/BusinessGuy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B216B8B115E8040B002C10F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusinessGuy/BusinessGuy-Prefix.pch";
+				INFOPLIST_FILE = "BusinessGuy/BusinessGuy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B216B86B15E8040A002C10F3 /* Build configuration list for PBXProject "BusinessGuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B216B8AD15E8040B002C10F3 /* Debug */,
+				B216B8AE15E8040B002C10F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B216B8AF15E8040B002C10F3 /* Build configuration list for PBXNativeTarget "BusinessGuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B216B8B015E8040B002C10F3 /* Debug */,
+				B216B8B115E8040B002C10F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B216B86815E8040A002C10F3 /* Project object */;
+}

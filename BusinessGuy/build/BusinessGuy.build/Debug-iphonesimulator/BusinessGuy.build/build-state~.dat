@@ -1,0 +1,500 @@
+TBusinessGuy
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/Info.plist BusinessGuy/BusinessGuy-Info.plist
+cProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch.pth BusinessGuy/BusinessGuy-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Contacts.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Contacts.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AppDelegate.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPerson.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPerson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddEditViewController.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddEditViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPersonCell.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPersonCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ContactDetailViewController.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ContactDetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/CameraImageHelper.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/CameraImageHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Orientation.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Orientation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/main.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/UIImage-Utilities.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/UIImage-Utilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddressBookSingleton.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddressBookSingleton.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy normal i386
+cGenerateDSYMFile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app.dSYM /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy
+cCopyStringsFile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/en.lproj/InfoPlist.strings BusinessGuy/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/en.lproj/MainStoryboard.storyboard
+cTouch /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000505B645700000000001EAFC0
+t1348166743
+s2011072
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000505B645700000000000C0EF0
+t1348166743
+s790256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000505B64570000000000228FD0
+t1348166743
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000505B6457000000000014D5B0
+t1348166743
+s1365424
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000505B64570000000000085620
+t1348166743
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000505B64580000000000020F20
+t1348166744
+s134944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000505B645800000000003DCEF0
+t1348166744
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000505B645800000000000015F7
+t1348166744
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000505B645900000000001D57A0
+t1348166745
+s1922976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000505B64590000000000000E8D
+t1348166745
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000505B645A0000000000AB3D60
+t1348166746
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c00000000505B645F0000000000001B54
+t1348166751
+s6996
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPerson.m
+c000000005038139700000000000004F4
+t1345852311
+s1268
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPersonCell.m
+c000000005037F6DD00000000000002B1
+t1345844957
+s689
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddEditViewController.m
+c00000000504BD8E30000000000000AA2
+t1347148003
+s2722
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddressBookSingleton.m
+c00000000503812150000000000000380
+t1345851925
+s896
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AppDelegate.m
+c00000000504BCF640000000000000814
+t1347145572
+s2068
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/BusinessGuy-Prefix.pch
+c000000005037CC8B0000000000000145
+t1345834123
+s325
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/CameraImageHelper.m
+c00000000503808910000000000001C30
+t1345849489
+s7216
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ContactDetailViewController.m
+c00000000503807DF00000000000005F0
+t1345849311
+s1520
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Contacts.m
+c00000000505CA8C700000000000016B8
+t1348249799
+s5816
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Orientation.m
+c00000000503801AB0000000000001487
+t1345847723
+s5255
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/UIImage-Utilities.m
+c00000000503801E5000000000000192E
+t1345847781
+s6446
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/en.lproj/InfoPlist.strings
+c000000005037CC8B000000000000002D
+t1345834123
+s45
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/en.lproj/MainStoryboard.storyboard
+c00000000504BD0310000000000005B63
+t1347145777
+s23395
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/main.m
+c000000005037CC8B0000000000000164
+t1345834123
+s356
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPerson.o
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPersonCell.o
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddEditViewController.o
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddressBookSingleton.o
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/BusinessGuy.LinkFileList
+c00000000505CA8ED00000000000006F8
+t1348249837
+s1784
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/CameraImageHelper.o
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ContactDetailViewController.o
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Contacts.o
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Orientation.o
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/UIImage-Utilities.o
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app.dSYM
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/Info.plist
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/PkgInfo
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/en.lproj/MainStoryboard.storyboardc
+t2
+s0
+
+N/var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch.pth
+t2
+s0
+
+NBusinessGuy/BusinessGuy-Info.plist
+c00000000505B75180000000000000598
+t1348171032
+s1432
+
+CBuild AST from /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPerson.m
+r0
+
+CBuild AST from /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPersonCell.m
+r0
+
+CBuild AST from /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddEditViewController.m
+r0
+
+CBuild AST from /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddressBookSingleton.m
+r0
+
+CBuild AST from /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AppDelegate.m
+r0
+
+CBuild AST from /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/CameraImageHelper.m
+r0
+
+CBuild AST from /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ContactDetailViewController.m
+r0
+
+CBuild AST from /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Contacts.m
+r0
+
+CBuild AST from /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Orientation.m
+r0
+
+CBuild AST from /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/UIImage-Utilities.m
+r0
+
+CBuild AST from /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7a00cf6de00cb641^3a24d96de00cb641^---0#1#0#--18"Check dependencies36"786D68F2-702A-4B82-8EE2-83BBB9AE9066-
+
+CCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPerson.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPerson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942638.151201
+e369942638.267288
+r1
+xCompileC
+xbuild/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPerson.o
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPerson.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPerson.m:45:10: warning: unused variable 'isSaved' [-Wunused-variable]
+o    BOOL isSaved = ABAddressBookSave (
+o         ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPerson.m98da266ee00cb641^f06b446ee00cb641^-217"/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPerson.m:45:10: warning: unused variable 'isSaved' [-Wunused-variable]    BOOL isSaved = ABAddressBookSave (         ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Unused variable 'isSaved'-369942638#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@99"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPerson.m0000000000000000^44#9#44#9#1034#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@99"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPerson.m0000000000000000^3904"CompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPerson.o BusinessGuy/ABPerson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPerson.d --serialize-diagnostics /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPerson.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPerson.m -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPerson.o36"9BEB1101-0F4A-4701-9594-980D428718ED-
+
+CCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPersonCell.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPersonCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942638.151232
+e369942638.273048
+r1
+xCompileC
+xbuild/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPersonCell.o
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPersonCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPersonCell.m50df266ee00cb641^79e6456ee00cb641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPersonCell.m0000000000000000^3928"CompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPersonCell.o BusinessGuy/ABPersonCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPersonCell.d --serialize-diagnostics /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPersonCell.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ABPersonCell.m -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ABPersonCell.o36"039F1118-3CD8-45CA-BC16-6321BD4CFB48-
+
+CCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddEditViewController.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddEditViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942638.151233
+e369942638.363546
+r1
+xCompileC
+xbuild/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddEditViewController.o
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddEditViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddEditViewController.mfdda266ee00cb641^cf115d6ee00cb641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddEditViewController.m0000000000000000^3982"CompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddEditViewController.o BusinessGuy/AddEditViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddEditViewController.d --serialize-diagnostics /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddEditViewController.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddEditViewController.m -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddEditViewController.o36"07D292D9-A57D-4D18-84EA-11912D754C64-
+
+CCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddressBookSingleton.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddressBookSingleton.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942638.274227
+e369942638.301019
+r1
+xCompileC
+xbuild/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddressBookSingleton.o
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddressBookSingleton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddressBookSingleton.mf04e466ee00cb641^a1104d6ee00cb641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddressBookSingleton.m0000000000000000^3976"CompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddressBookSingleton.o BusinessGuy/AddressBookSingleton.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddressBookSingleton.d --serialize-diagnostics /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddressBookSingleton.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AddressBookSingleton.m -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AddressBookSingleton.o36"4A8B6A37-94DE-4A73-89C5-8D9E38B10629-
+
+CCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AppDelegate.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942638.151174
+e369942638.358488
+r1
+xCompileC
+xbuild/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AppDelegate.o
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AppDelegate.me4dc266ee00cb641^86c65b6ee00cb641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AppDelegate.m0000000000000000^3922"CompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AppDelegate.o BusinessGuy/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AppDelegate.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/AppDelegate.m -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/AppDelegate.o36"02D778CF-2586-4205-A48D-04421174A472-
+
+CCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/CameraImageHelper.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/CameraImageHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942638.151291
+e369942638.377504
+r1
+xCompileC
+xbuild/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/CameraImageHelper.o
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/CameraImageHelper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/CameraImageHelper.m22de266ee00cb641^5da4606ee00cb641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/CameraImageHelper.m0000000000000000^3958"CompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/CameraImageHelper.o BusinessGuy/CameraImageHelper.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/CameraImageHelper.d --serialize-diagnostics /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/CameraImageHelper.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/CameraImageHelper.m -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/CameraImageHelper.o36"C21C4B23-77C1-40BA-ACBC-E6AA4194B8DE-
+
+CCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ContactDetailViewController.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ContactDetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942638.151267
+e369942638.273411
+r1
+xCompileC
+xbuild/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ContactDetailViewController.o
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ContactDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ContactDetailViewController.m65de266ee00cb641^33fe456ee00cb641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ContactDetailViewController.m0000000000000000^4018"CompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ContactDetailViewController.o BusinessGuy/ContactDetailViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ContactDetailViewController.d --serialize-diagnostics /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ContactDetailViewController.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/ContactDetailViewController.m -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/ContactDetailViewController.o36"8B522942-E167-42BC-9ACC-F1D67F65E3B2-
+
+CCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Contacts.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Contacts.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942638.151176
+e369942638.278108
+r1
+xCompileC
+xbuild/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Contacts.o
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Contacts.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Contacts.maddd266ee00cb641^6e31476ee00cb641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Contacts.m0000000000000000^3904"CompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Contacts.o BusinessGuy/Contacts.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Contacts.d --serialize-diagnostics /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Contacts.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Contacts.m -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Contacts.o36"39E93CAF-9469-4A17-9E4F-152419B17F0F-
+
+CCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Orientation.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Orientation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942638.151313
+e369942638.270312
+r1
+xCompileC
+xbuild/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Orientation.o
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Orientation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Orientation.mf8df266ee00cb641^7f33456ee00cb641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Orientation.m0000000000000000^3922"CompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Orientation.o BusinessGuy/Orientation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Orientation.d --serialize-diagnostics /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Orientation.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/Orientation.m -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/Orientation.o36"07F6FB3C-73BE-45DF-88E2-1EA63C5F13DD-
+
+CCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/UIImage-Utilities.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/UIImage-Utilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942638.272044
+e369942638.322217
+r1
+xCompileC
+xbuild/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/UIImage-Utilities.o
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/UIImage-Utilities.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/UIImage-Utilities.m97c8456ee00cb641^e17c526ee00cb641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/UIImage-Utilities.m0000000000000000^3958"CompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/UIImage-Utilities.o BusinessGuy/UIImage-Utilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/UIImage-Utilities.d --serialize-diagnostics /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/UIImage-Utilities.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/UIImage-Utilities.m -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/UIImage-Utilities.o36"2FC0F58E-42EB-44F8-99B7-0165B92E5737-
+
+CCompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/main.o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942638.268754
+e369942638.295120
+r1
+xCompileC
+xbuild/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/main.o
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/main.meae8446ee00cb641^1e8d4b6ee00cb641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/main.m0000000000000000^3880"CompileC build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/main.o BusinessGuy/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -include /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch -MMD -MT dependencies -MF /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/main.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/main.m -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/main.o36"AA4CED33-9359-4EF8-B204-A449014D6068-
+
+CCompileStoryboard /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/en.lproj/MainStoryboard.storyboard
+s369942638.607148
+e369942639.452030
+r1
+xCompileStoryboard
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/en.lproj/MainStoryboard.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CompileStoryboard BusinessGuy/en.lproj/MainStoryboard.storyboard7c7f9b6ee00cb641^06b9736fe00cb641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/en.lproj/MainStoryboard.storyboard0000000000000000^1022"CompileStoryboard BusinessGuy/en.lproj/MainStoryboard.storyboard    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/en.lproj/MainStoryboard.storyboardc /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"8C5BFEBA-A8F0-4AE1-BFB5-615BB0619BD2-
+
+CCopyStringsFile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/en.lproj/InfoPlist.strings BusinessGuy/en.lproj/InfoPlist.strings
+s369942638.607144
+e369942638.611099
+r1
+xCopyStringsFile
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/en.lproj/InfoPlist.strings
+xBusinessGuy/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy BusinessGuy/en.lproj/InfoPlist.strings24809b6ee00cb641^71719c6ee00cb641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/en.lproj/InfoPlist.strings0000000000000000^635"CopyStringsFile build/Debug-iphonesimulator/BusinessGuy.app/en.lproj/InfoPlist.strings BusinessGuy/en.lproj/InfoPlist.strings    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/en.lproj -- BusinessGuy/en.lproj/InfoPlist.strings36"61085920-5BCE-4314-AF28-12DB38622DE5-
+
+CGenerateDSYMFile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app.dSYM /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy
+s369942638.560237
+e369942638.598814
+r1
+xGenerateDSYMFile
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app.dSYM
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Generating /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app.dSYM0f7d8f6ee00cb641^984c996ee00cb641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app.dSYM000000000080d041^715"GenerateDSYMFile build/Debug-iphonesimulator/BusinessGuy.app.dSYM build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app.dSYM36"1BD091D7-4460-4BD4-9506-8727EC66D995-
+
+CLd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy normal i386
+s369942638.384450
+e369942638.553334
+r1
+xLd
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Link /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy2481626ee00cb641^26a88d6ee00cb641^---0#0#0#--1417"Ld build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy normal i386    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator -filelist /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/Objects-normal/i386/BusinessGuy.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework AVFoundation -framework CoreVideo -framework CoreMedia -framework QuartzCore -framework CoreImage -framework AddressBook -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/BusinessGuy36"6BEF3A12-1F0F-41F8-84B2-D83BE7CD795F-
+
+CProcessInfoPlistFile /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/Info.plist BusinessGuy/BusinessGuy-Info.plist
+s369942637.858259
+e369942637.861014
+r1
+xProcessInfoPlistFile
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/Info.plist
+xBusinessGuy/BusinessGuy-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process BusinessGuy/BusinessGuy-Info.plist4bc8db6de00cb641^2c7ddc6de00cb641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/BusinessGuy-Info.plist0000000000000000^744"ProcessInfoPlistFile build/Debug-iphonesimulator/BusinessGuy.app/Info.plist BusinessGuy/BusinessGuy-Info.plist    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BusinessGuy/BusinessGuy-Info.plist -genpkginfo /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app/Info.plist36"145FB50C-B43D-4194-BA18-4786B28032B8-
+
+CProcessPCH /Users/mattvv/Library/Developer/Xcode/DerivedData/BusinessGuy-bwesciftrixncagykvzxdqjljmup/Index/PrecompiledHeaders/BusinessGuy-Prefix-dbqehbrtjmnzchdjebhzcvstbddx_ast/BusinessGuy-Prefix.pch.pth BusinessGuy/BusinessGuy-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch.pth BusinessGuy/BusinessGuy-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942637.869378
+e369942638.144062
+r1
+xProcessPCH
+x/var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch.pth
+xBusinessGuy/BusinessGuy-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile BusinessGuy/BusinessGuy-Prefix.pchd5b1de6de00cb641^efe3246ee00cb641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/BusinessGuy-Prefix.pch0000000000000000^3872"ProcessPCH /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch.pth BusinessGuy/BusinessGuy-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-generated-files.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-own-target-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-all-target-headers.hmap -iquote /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/BusinessGuy-project-headers.hmap -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources/i386 -I/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/BusinessGuy.build/Debug-iphonesimulator/BusinessGuy.build/DerivedSources -F/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch.dia -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/BusinessGuy/BusinessGuy-Prefix.pch -o /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/s_/5scyb09j19s4c4mszd06b3ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BusinessGuy-Prefix-fqwfhfuuyakxskahbnbpjbkdyzxi/BusinessGuy-Prefix.pch.d36"9C2BF95E-8BFF-4387-A099-20B5A0F986D4-
+
+CTouch /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app
+s369942639.460101
+e369942639.464946
+r1
+xTouch
+x/Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Touch /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.appd0d6756fe00cb641^f706776fe00cb641^---0#0#0#--440"Touch build/Debug-iphonesimulator/BusinessGuy.app    cd /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mattvv/Documents/curiousminds/businessguy/BusinessGuy/build/Debug-iphonesimulator/BusinessGuy.app36"D2A4A1D9-924B-45A4-A801-827B7301CA5D-
+
