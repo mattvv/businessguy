@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CameraImageHelper.h"
 
 @interface Snapshot : NSObject
+
++ (Snapshot *)sharedInstance;
+- (void) startCameraSession;
+- (void) stopCameraSession;
+- (void) saveCurrentImage;
+
+@property (nonatomic, retain) CameraImageHelper *camera;
+@property (nonatomic, retain) UIImage *lastImage;
 
 @end

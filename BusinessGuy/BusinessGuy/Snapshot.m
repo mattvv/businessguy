@@ -10,4 +10,35 @@
 
 @implementation Snapshot
 
+Snapshot *_sharedObject;
+
++ (Snapshot *)sharedInstance
+{
+    static dispatch_once_t pred = 0;
+    __strong static id _sharedObject = nil;
+    dispatch_once(&pred, ^{
+        _sharedObject = [[self alloc] init]; // or some other init method
+    });
+    return _sharedObject;
+}
+
+-(id)init {
+    if ( self = [super init] ) {
+        self.camera = [CameraImageHelper helperWithCamera:kCameraFront];
+    }
+    return self;
+}
+
+- (void) startCameraSession {
+    [self.camera startRunningSession];
+}
+
+- (void) stopCameraSession {
+    [self.camera stopRunningSession];
+}
+
+- (void) saveCurrentImage {
+    self.lastImage = self.camera.currentImage;
+}
+
 @end

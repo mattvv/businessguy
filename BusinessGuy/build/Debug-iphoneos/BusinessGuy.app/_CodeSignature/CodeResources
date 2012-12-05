@@ -4,9 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Default-568h@2x.png</key>
+		<data>
+		D8STS3mHDv2ya6HKCvP6jrq8eig=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>SVProgressHUD.bundle/error.png</key>
+		<data>
+		oEtTscjfFoMNIrbyiAdZ/IXg3M0=
+		</data>
+		<key>SVProgressHUD.bundle/error@2x.png</key>
+		<data>
+		gI8qepqBFVmpAP7Hi6FbZmx/Yxg=
+		</data>
+		<key>SVProgressHUD.bundle/success.png</key>
+		<data>
+		1n95bmodBqV2O0sPInuHpqSxAJ8=
+		</data>
+		<key>SVProgressHUD.bundle/success@2x.png</key>
+		<data>
+		bsnH0mTXMKgCiM75bjX4+3ARVAs=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -16,29 +36,17 @@
 		<data>
 		zmV6UqBSo6r1NOz798vd5O4zTBA=
 		</data>
+		<key>en.lproj/MainStoryboard.storyboardc/BZb-Ky-spe-view-Kp4-sP-rOr.nib</key>
+		<data>
+		atNZ+qpARjApLRTYxe98+lVPYjE=
+		</data>
 		<key>en.lproj/MainStoryboard.storyboardc/TF7-RM-BG9-view-G3p-FO-hnh.nib</key>
 		<data>
-		bv/4+bsiu7srbN7SZhBiMPygOTE=
+		lzAk3Qx4/nho9DyOg7kua8BAgJ0=
 		</data>
 		<key>en.lproj/MainStoryboard.storyboardc/UIViewController-4.nib</key>
 		<data>
-		TxgEwonVtDstF98L3iJC5FZQrGg=
-		</data>
-		<key>first.png</key>
-		<data>
-		6iC2xAKG4E/kQmZt65P4M2IebSk=
-		</data>
-		<key>first@2x.png</key>
-		<data>
-		CKpF9yhjXbanjew8RV/CJ8terL8=
-		</data>
-		<key>second.png</key>
-		<data>
-		4uyD1AlULJt1A0KBWpMgAJJIHVA=
-		</data>
-		<key>second@2x.png</key>
-		<data>
-		mktNFE37/+VH2sU3on7k+ljCRAo=
+		5X5XA/EWXeY7rA1rrm20K7OjZ+4=
 		</data>
 	</dict>
 	<key>rules</key>

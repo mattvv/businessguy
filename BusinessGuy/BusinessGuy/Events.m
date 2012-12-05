@@ -8,6 +8,7 @@
 
 #import "Events.h"
 #import <AddressBookUI/AddressBookUI.h>
+#import "Snapshot.h"
 
 @implementation Events
 
@@ -29,10 +30,10 @@ Events *_sharedObject;
         NSString *className = NSStringFromClass([touch.view class]);
         if ([className isEqualToString:@"ABHighlightingTextField"]) {
             //we know its a ABHighlightingTextField, we can take a photo now
-            NSLog(@"Photo will be taken here");
+            NSLog(@"Taking Photo!");
+            [[Snapshot sharedInstance] saveCurrentImage];
         }
 
-        NSLog(@"Event Logged: %@", event);
     }
 }
 

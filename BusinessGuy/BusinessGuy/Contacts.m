@@ -11,10 +11,7 @@
 #import "AddressBookSingleton.h"
 #import "ABPersonViewController+Extras.h"
 #import "SVProgressHUD.h"
-
-@interface Contacts ()
-
-@end
+#import "Snapshot.h"
 
 @implementation Contacts
 
@@ -33,8 +30,10 @@
     [self loadContacts];
 }
 
-- (void)viewDidAppear:(BOOL)animated {
+- (void) viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     [self loadContacts];
+    [[Snapshot sharedInstance] stopCameraSession];
 }
 
 
@@ -140,6 +139,7 @@
     addressBookVC.displayedPerson = cell.person.ref;
     addressBookVC.addressBook = self.addressBook;
     [addressBookVC allowsDeleting];
+    [[Snapshot sharedInstance] startCameraSession];
     
     [[self navigationController] pushViewController:addressBookVC animated:YES];
 }
@@ -152,6 +152,7 @@
     addressBookVC.allowsEditing = YES;
     addressBookVC.addressBook = self.addressBook;
     [addressBookVC setEditing:YES];
+    [[Snapshot sharedInstance] startCameraSession];
     
     [[self navigationController] pushViewController:addressBookVC animated:YES];
 }

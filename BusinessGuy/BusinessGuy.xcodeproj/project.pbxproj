@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B208F632166FB6350071ED74 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B208F631166FB6350071ED74 /* PhotoViewController.m */; };
 		B216B87615E8040B002C10F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216B87515E8040B002C10F3 /* UIKit.framework */; };
 		B216B87815E8040B002C10F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216B87715E8040B002C10F3 /* Foundation.framework */; };
 		B216B87A15E8040B002C10F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216B87915E8040B002C10F3 /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 		B21D58CB166F1E6700A1F2B0 /* ABPersonViewController+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D58CA166F1E6700A1F2B0 /* ABPersonViewController+Extras.m */; };
 		B21D58D0166F231600A1F2B0 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B21D58CD166F231600A1F2B0 /* SVProgressHUD.bundle */; };
 		B21D58D1166F231600A1F2B0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B21D58CF166F231600A1F2B0 /* SVProgressHUD.m */; };
+		B21D58D3166F243200A1F2B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B21D58D2166F243200A1F2B0 /* Default-568h@2x.png */; };
 		B23D84FC160E334F0099FFE3 /* InputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B23D84FB160E334F0099FFE3 /* InputCell.m */; };
 		B23D8504160E39890099FFE3 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B23D8503160E39890099FFE3 /* DetailCell.m */; };
 		B2AAECED161A844B004D162F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AAECEC161A844B004D162F /* AddressBookUI.framework */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B208F630166FB6350071ED74 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		B208F631166FB6350071ED74 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		B216B87115E8040B002C10F3 /* BusinessGuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessGuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B216B87515E8040B002C10F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B216B87715E8040B002C10F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +69,7 @@
 		B21D58CD166F231600A1F2B0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		B21D58CE166F231600A1F2B0 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		B21D58CF166F231600A1F2B0 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		B21D58D2166F243200A1F2B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B23D84FA160E334F0099FFE3 /* InputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCell.h; sourceTree = "<group>"; };
 		B23D84FB160E334F0099FFE3 /* InputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCell.m; sourceTree = "<group>"; };
 		B23D8502160E39890099FFE3 /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
@@ -113,6 +118,7 @@
 		B216B86615E8040A002C10F3 = {
 			isa = PBXGroup;
 			children = (
+				B21D58D2166F243200A1F2B0 /* Default-568h@2x.png */,
 				B216B87B15E8040B002C10F3 /* BusinessGuy */,
 				B216B87415E8040B002C10F3 /* Frameworks */,
 				B216B87215E8040B002C10F3 /* Products */,
@@ -182,6 +188,8 @@
 			children = (
 				B216B8CC15E808C7002C10F3 /* Contacts.h */,
 				B216B8CD15E808C7002C10F3 /* Contacts.m */,
+				B208F630166FB6350071ED74 /* PhotoViewController.h */,
+				B208F631166FB6350071ED74 /* PhotoViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -314,6 +322,7 @@
 				B216B88015E8040B002C10F3 /* InfoPlist.strings in Resources */,
 				B216B88915E8040B002C10F3 /* MainStoryboard.storyboard in Resources */,
 				B21D58D0166F231600A1F2B0 /* SVProgressHUD.bundle in Resources */,
+				B21D58D3166F243200A1F2B0 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +349,7 @@
 				B21D58C7166F0F7E00A1F2B0 /* UIApplication+BusinessGuy.m in Sources */,
 				B21D58CB166F1E6700A1F2B0 /* ABPersonViewController+Extras.m in Sources */,
 				B21D58D1166F231600A1F2B0 /* SVProgressHUD.m in Sources */,
+				B208F632166FB6350071ED74 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +396,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -405,7 +415,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -418,6 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BusinessGuy/BusinessGuy-Prefix.pch";
 				INFOPLIST_FILE = "BusinessGuy/BusinessGuy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -430,6 +441,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BusinessGuy/BusinessGuy-Prefix.pch";
 				INFOPLIST_FILE = "BusinessGuy/BusinessGuy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
