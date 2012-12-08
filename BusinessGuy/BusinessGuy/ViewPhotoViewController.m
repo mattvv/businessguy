@@ -13,17 +13,17 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    int contentSize = 0;
+    self.scrollView.frame = CGRectMake(0,0,320,480);
+    self.scrollView.contentSize = CGSizeMake(self.scrollView.bounds.size.width * [self.photos count], self.scrollView.bounds.size.height);
+    
+    int count = 0;
     for (NSString *photoPath in self.photos) {
         NSData *imageData = [NSData dataWithContentsOfFile:photoPath];
         UIImage *photo = [UIImage imageWithData:imageData];
-        [self.scrollView setContentSize:CGSizeMake(photo.size.height/2, contentSize)];
-        UIImageView *imageView = [[UIImageView alloc] init];
-        imageView.frame = [CameraImageHelper getFittedImageRect:photo fitInRect:CGRectMake(contentSize, 0, self.scrollView.bounds.size.width, self.scrollView.bounds.size.height)];
-        imageView.image = photo;
-        contentSize += photo.size.width/2;
-        [imageView setFrame:CGRectMake(0,0,photo.size.width, photo.size.height)];
+        UIImageView *imageView = [[UIImageView alloc] initWithImage:photo];
+        imageView.frame = [CameraImageHelper getFittedImageRect:photo fitInRect:CGRectMake(self.scrollView.bounds.size.width * count, 0, self.scrollView.bounds.size.width, self.scrollView.bounds.size.height)];
         [self.scrollView addSubview:imageView];
+        count++;
     }
     self.pageControl.numberOfPages = [self.scrollView.subviews count];
 }
