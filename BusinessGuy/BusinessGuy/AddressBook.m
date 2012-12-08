@@ -45,7 +45,6 @@ AddressBook *_sharedObject;
         [self.photoDictionary setObject:photoList forKey:recordNumber];
     }
     
-    //todo: save to disk
     [photoList addObject:savePath];
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:[AddressBook sharedInstance].photoDictionary];
