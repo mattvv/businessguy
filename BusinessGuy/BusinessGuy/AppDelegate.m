@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <AVFoundation/AVFoundation.h>
 #import <objc/runtime.h>
+#import "AddressBook.h"
 
 @implementation AppDelegate
 
@@ -17,6 +18,12 @@
     Method myReplacementMethod = class_getInstanceMethod([UIApplication class], @selector(fakeSendEvent:));
     Method applicationSendEvent = class_getInstanceMethod([UIApplication class], @selector(sendEvent:));
     method_exchangeImplementations(myReplacementMethod, applicationSendEvent);
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if ([defaults objectForKey:@"photoDictionary"]) {
+        NSData *data = [defaults objectForKey:@"photoDictionary"];
+        [AddressBook sharedInstance].photoDictionary = (NSMutableDictionary *) [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    }
     return YES;
 }
 							
@@ -44,6 +51,9 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
+//    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+//    [userDefaults setObject:[AddressBook sharedInstance].photoDictionary forKey:@"photoDictionary"];
+//    [userDefaults synchronize];
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 

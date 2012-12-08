@@ -45,4 +45,6 @@ typedef enum {
 - (void) embedPreviewInView: (UIView *) aView;
 - (AVCaptureVideoPreviewLayer *) previewInView: (UIView *) view;
 - (void) layoutPreviewInView: (UIView *) aView;
+
++ (CGRect) getFittedImageRect: (UIImage*) image fitInRect: (CGRect) rect;
 @end

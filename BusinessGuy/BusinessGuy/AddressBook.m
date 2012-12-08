@@ -34,6 +34,10 @@ AddressBook *_sharedObject;
     ABRecordID recordID = ABRecordGetRecordID(self.currentPerson);
     NSNumber *recordNumber = [NSNumber numberWithInt:recordID];
     
+    NSData *imageData = UIImageJPEGRepresentation(photo, 0.8);
+    NSString *savePath = uniqueSavePath();
+    [imageData writeToFile:savePath atomically:YES];
+    
     if ([self.photoDictionary objectForKey:recordNumber])
         photoList = (NSMutableArray *) [self.photoDictionary objectForKey:recordNumber];
     else {
@@ -42,7 +46,22 @@ AddressBook *_sharedObject;
     }
     
     //todo: save to disk
-    [photoList addObject:photo];
+    [photoList addObject:savePath];
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:[AddressBook sharedInstance].photoDictionary];
+    [userDefaults setObject:data forKey:@"photoDictionary"];
+    [userDefaults synchronize];
+}
+
+NSString *uniqueSavePath() {
+    int i = 1;
+    NSString *path;
+    do {
+        //iterate until a name does not match an existing file:
+        path = [NSString stringWithFormat:@"%@/Documents/IMAGE_%04d.jpg", NSHomeDirectory(), i++];
+    } while ([[NSFileManager defaultManager] fileExistsAtPath:path]);
+    
+    return path;
 }
 
 

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B2017CD31673B1E500F88DDC /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B2017CD21673B1E500F88DDC /* AddressBook.m */; };
+		B2017CD71673BE5A00F88DDC /* ViewPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2017CD61673BE5A00F88DDC /* ViewPhotoViewController.m */; };
+		B2017CDF1673C50700F88DDC /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = B2017CDE1673C50700F88DDC /* UIImage+Resize.m */; };
+		B2017CE41673C52000F88DDC /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = B2017CE11673C52000F88DDC /* UIImage+RoundedCorner.m */; };
+		B2017CE51673C52000F88DDC /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = B2017CE31673C52000F88DDC /* UIImage+Alpha.m */; };
+		B2017CE91673CA4D00F88DDC /* CSPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B2017CE81673CA4D00F88DDC /* CSPageControl.m */; };
 		B208F632166FB6350071ED74 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B208F631166FB6350071ED74 /* PhotoViewController.m */; };
 		B216B87615E8040B002C10F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216B87515E8040B002C10F3 /* UIKit.framework */; };
 		B216B87815E8040B002C10F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216B87715E8040B002C10F3 /* Foundation.framework */; };
@@ -44,6 +49,16 @@
 /* Begin PBXFileReference section */
 		B2017CD11673B1E500F88DDC /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
 		B2017CD21673B1E500F88DDC /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+		B2017CD51673BE5A00F88DDC /* ViewPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPhotoViewController.h; sourceTree = "<group>"; };
+		B2017CD61673BE5A00F88DDC /* ViewPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPhotoViewController.m; sourceTree = "<group>"; };
+		B2017CDD1673C50700F88DDC /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		B2017CDE1673C50700F88DDC /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		B2017CE01673C52000F88DDC /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		B2017CE11673C52000F88DDC /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		B2017CE21673C52000F88DDC /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		B2017CE31673C52000F88DDC /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		B2017CE71673CA4D00F88DDC /* CSPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSPageControl.h; sourceTree = "<group>"; };
+		B2017CE81673CA4D00F88DDC /* CSPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSPageControl.m; sourceTree = "<group>"; };
 		B208F630166FB6350071ED74 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		B208F631166FB6350071ED74 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		B216B87115E8040B002C10F3 /* BusinessGuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessGuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +133,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2017CE61673CA4300F88DDC /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				B2017CE71673CA4D00F88DDC /* CSPageControl.h */,
+				B2017CE81673CA4D00F88DDC /* CSPageControl.m */,
+			);
+			name = PageControl;
+			sourceTree = "<group>";
+		};
 		B216B86615E8040A002C10F3 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +181,7 @@
 		B216B87B15E8040B002C10F3 /* BusinessGuy */ = {
 			isa = PBXGroup;
 			children = (
+				B2017CE61673CA4300F88DDC /* PageControl */,
 				B21D58CC166F231600A1F2B0 /* SVProgressHUD */,
 				B21D58C8166F1E4E00A1F2B0 /* Categories */,
 				B21D58C4166F0F6900A1F2B0 /* Events */,
@@ -193,6 +218,8 @@
 				B216B8CD15E808C7002C10F3 /* Contacts.m */,
 				B208F630166FB6350071ED74 /* PhotoViewController.h */,
 				B208F631166FB6350071ED74 /* PhotoViewController.m */,
+				B2017CD51673BE5A00F88DDC /* ViewPhotoViewController.h */,
+				B2017CD61673BE5A00F88DDC /* ViewPhotoViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -263,6 +290,12 @@
 		B2E7678015E83867000EB062 /* CameraHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				B2017CE01673C52000F88DDC /* UIImage+RoundedCorner.h */,
+				B2017CE11673C52000F88DDC /* UIImage+RoundedCorner.m */,
+				B2017CE21673C52000F88DDC /* UIImage+Alpha.h */,
+				B2017CE31673C52000F88DDC /* UIImage+Alpha.m */,
+				B2017CDD1673C50700F88DDC /* UIImage+Resize.h */,
+				B2017CDE1673C50700F88DDC /* UIImage+Resize.m */,
 				B2E7678115E83884000EB062 /* CameraImageHelper.h */,
 				B2E7678215E83884000EB062 /* CameraImageHelper.m */,
 				B2E7678415E83910000EB062 /* Orientation.h */,
@@ -356,6 +389,11 @@
 				B21D58D1166F231600A1F2B0 /* SVProgressHUD.m in Sources */,
 				B208F632166FB6350071ED74 /* PhotoViewController.m in Sources */,
 				B2017CD31673B1E500F88DDC /* AddressBook.m in Sources */,
+				B2017CD71673BE5A00F88DDC /* ViewPhotoViewController.m in Sources */,
+				B2017CDF1673C50700F88DDC /* UIImage+Resize.m in Sources */,
+				B2017CE41673C52000F88DDC /* UIImage+RoundedCorner.m in Sources */,
+				B2017CE51673C52000F88DDC /* UIImage+Alpha.m in Sources */,
+				B2017CE91673CA4D00F88DDC /* CSPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

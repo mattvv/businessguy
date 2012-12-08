@@ -226,4 +226,34 @@
     return helper;
 }
 
++ (CGRect) getFittedImageRect: (UIImage*) image fitInRect: (CGRect) rect
+{
+    
+    CGRect r ;
+    CGSize b ;
+    float  a[2] ;
+    
+    r = rect;
+    b = image.size;
+    
+    a[0] = b.width / b.height ;
+    a[1] = rect.size.width / rect.size.height ;
+    
+    if( a[0] < a[1] )
+    {
+        r.size.width = rect.size.height * a[0];
+        r.size.height = rect.size.height;
+    } else {
+        r.size.width = rect.size.width;
+        r.size.height = rect.size.width / a[0];
+    }
+    r.origin.y += (rect.size.height - r.size.height) * 0.5f;
+    r.origin.x += (rect.size.width - r.size.width) * 0.5f;
+    
+    
+    return r;
+    
+}
+
+
 @end

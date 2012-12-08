@@ -10,11 +10,13 @@
 #import "Snapshot.h"
 #import "AddressBook.h"
 #import <AddressBook/AddressBook.h>
+#import "ViewPhotoViewController.h"
 
 @implementation PhotoViewController
 
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    [self.tableView reloadData];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -27,8 +29,6 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyIdentifier"];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"MyIdentifier"];
-        cell.selectionStyle = UITableViewCellSelectionStyleNone;
-        
     }
 
     NSNumber *recordNumber = [[[AddressBook sharedInstance].photoDictionary allKeys] objectAtIndex:indexPath.row];
@@ -38,5 +38,21 @@
     cell.detailTextLabel.text = CFBridgingRelease(ABRecordCopyValue(person, kABPersonLastNameProperty));
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self performSegueWithIdentifier:@"viewPhoto" sender:indexPath];
+}
+
+#pragma mark - segue fun
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"viewPhoto"]) {
+        NSIndexPath *indexPath = (NSIndexPath *) sender;
+        NSNumber *recordNumber = [[[AddressBook sharedInstance].photoDictionary allKeys] objectAtIndex:indexPath.row];
+        ViewPhotoViewController *viewPhoto = (ViewPhotoViewController *) segue.destinationViewController;
+        viewPhoto.photos = nil;
+        viewPhoto.photos = [[AddressBook sharedInstance].photoDictionary objectForKey:recordNumber];
+    }
 }
 @end

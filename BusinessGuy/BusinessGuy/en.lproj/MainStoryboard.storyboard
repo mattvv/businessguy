@@ -85,10 +85,45 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Photos" id="tDI-bk-C2a"/>
+                    <connections>
+                        <segue destination="lov-MX-PPH" kind="push" identifier="viewPhoto" id="kMg-qd-aJd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u1a-Sk-gf8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1213" y="519"/>
+        </scene>
+        <!--View Photo View Controller-->
+        <scene sceneID="FSz-6b-cme">
+            <objects>
+                <viewController id="lov-MX-PPH" customClass="ViewPhotoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x2T-hF-iml">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="DiB-r2-SwE">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="lov-MX-PPH" id="VqC-IA-FYe"/>
+                                </connections>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="8HJ-zl-gX3" customClass="CSPageControl">
+                                <rect key="frame" x="141" y="320" width="38" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ojD-qT-axl"/>
+                    <connections>
+                        <outlet property="pageControl" destination="8HJ-zl-gX3" id="fYp-VJ-ktC"/>
+                        <outlet property="scrollView" destination="DiB-r2-SwE" id="J9N-pv-7eP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kqp-si-JUz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1698" y="519"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pZs-yg-UbK">
@@ -135,6 +170,9 @@
                 <relationship kind="outlet" name="portrait" candidateClass="UIImageView"/>
             </relationships>
         </class>
+        <class className="CSPageControl" superclassName="UIPageControl">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CSPageControl.h"/>
+        </class>
         <class className="Contacts" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Contacts.h"/>
             <relationships>
@@ -143,6 +181,13 @@
         </class>
         <class className="PhotoViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PhotoViewController.h"/>
+        </class>
+        <class className="ViewPhotoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewPhotoViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="pageControl" candidateClass="CSPageControl"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

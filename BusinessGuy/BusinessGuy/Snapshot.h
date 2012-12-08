@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "CameraImageHelper.h"
 
+#define IMG_SIZE_DIM_X 960
+#define IMG_SIZE_DIM_Y 640
+
 @interface Snapshot : NSObject
 
 + (Snapshot *)sharedInstance;
