@@ -16,7 +16,6 @@
 
 @property (nonatomic) CFArrayRef allPeople;
 @property (nonatomic) CFIndex nPeople;
-@property (nonatomic) ABAddressBookRef addressBook;
 @property (nonatomic, retain) NSMutableArray* people;
 
 - (IBAction)addContact:(id)sender;

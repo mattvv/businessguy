@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PhotoViewController : UIViewController
-
-@property (nonatomic, retain) IBOutlet UIImageView *lastImage;
+@interface PhotoViewController : UITableViewController
 
 @end

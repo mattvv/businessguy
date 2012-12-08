@@ -71,32 +71,20 @@
             </objects>
             <point key="canvasLocation" x="653" y="519"/>
         </scene>
-        <!--Photo View Controller-->
+        <!--Photo View Controller - Photos-->
         <scene sceneID="24n-Nh-ERE">
             <objects>
                 <viewController id="BZb-Ky-spe" customClass="PhotoViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Kp4-sP-rOr">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="QMJ-EA-hCq">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Latest Photo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4sU-4P-78K">
-                                <rect key="frame" x="108" y="20" width="159" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="r2K-Ug-OD6">
-                                <rect key="frame" x="40" y="61" width="240" height="267"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="tDI-bk-C2a"/>
-                    <connections>
-                        <outlet property="lastImage" destination="r2K-Ug-OD6" id="29P-se-xij"/>
-                    </connections>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="BZb-Ky-spe" id="ch1-1h-aeN"/>
+                            <outlet property="delegate" destination="BZb-Ky-spe" id="GmV-MB-dqS"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Photos" id="tDI-bk-C2a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u1a-Sk-gf8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -153,11 +141,8 @@
                 <relationship kind="action" name="addContact:"/>
             </relationships>
         </class>
-        <class className="PhotoViewController" superclassName="UIViewController">
+        <class className="PhotoViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PhotoViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="lastImage" candidateClass="UIImageView"/>
-            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

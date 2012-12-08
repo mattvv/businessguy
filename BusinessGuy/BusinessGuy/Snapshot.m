@@ -7,6 +7,7 @@
 //
 
 #import "Snapshot.h"
+#import "AddressBook.h"
 
 @implementation Snapshot
 
@@ -38,7 +39,7 @@ Snapshot *_sharedObject;
 }
 
 - (void) saveCurrentImage {
-    self.lastImage = self.camera.currentImage;
+    [[AddressBook sharedInstance] addPhoto:self.camera.currentImage];
 }
 
 @end

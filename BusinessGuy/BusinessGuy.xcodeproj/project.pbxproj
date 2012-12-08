@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2017CD31673B1E500F88DDC /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B2017CD21673B1E500F88DDC /* AddressBook.m */; };
 		B208F632166FB6350071ED74 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B208F631166FB6350071ED74 /* PhotoViewController.m */; };
 		B216B87615E8040B002C10F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216B87515E8040B002C10F3 /* UIKit.framework */; };
 		B216B87815E8040B002C10F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B216B87715E8040B002C10F3 /* Foundation.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2017CD11673B1E500F88DDC /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		B2017CD21673B1E500F88DDC /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
 		B208F630166FB6350071ED74 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		B208F631166FB6350071ED74 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		B216B87115E8040B002C10F3 /* BusinessGuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessGuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +204,8 @@
 				B21D58BF166F0E2400A1F2B0 /* Events.m */,
 				B21D58C1166F0E3200A1F2B0 /* Snapshot.h */,
 				B21D58C2166F0E3200A1F2B0 /* Snapshot.m */,
+				B2017CD11673B1E500F88DDC /* AddressBook.h */,
+				B2017CD21673B1E500F88DDC /* AddressBook.m */,
 			);
 			name = Singletons;
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 				B21D58CB166F1E6700A1F2B0 /* ABPersonViewController+Extras.m in Sources */,
 				B21D58D1166F231600A1F2B0 /* SVProgressHUD.m in Sources */,
 				B208F632166FB6350071ED74 /* PhotoViewController.m in Sources */,
+				B2017CD31673B1E500F88DDC /* AddressBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,12 +443,14 @@
 		B216B8B115E8040B002C10F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Matt Van Veenendaal";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BusinessGuy/BusinessGuy-Prefix.pch";
 				INFOPLIST_FILE = "BusinessGuy/BusinessGuy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E783C8BA-FEDD-4D21-B924-5A6F95455B2F";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};

@@ -12,6 +12,7 @@
 #import "ABPersonViewController+Extras.h"
 #import "SVProgressHUD.h"
 #import "Snapshot.h"
+#import "AddressBook.h"
 
 @implementation Contacts
 
@@ -38,9 +39,9 @@
 
 
 - (void)loadContacts {
-    self.addressBook = ABAddressBookCreateWithOptions(NULL, NULL);
     
 #if __IPHONE_OS_VERSION_MIN_REQUIRED > 60000
+    [AddressBook sharedInstance].addressBook = ABAddressBookCreateWithOptions(NULL, NULL);
     if (ABAddressBookRequestAccessWithCompletion != NULL){
         
         ABAddressBookRequestAccessWithCompletion(addressBook, ^(bool granted, CFErrorRef error) {
@@ -50,10 +51,12 @@
             }
         });
     }
+#else
+    [AddressBook sharedInstance].addressBook = ABAddressBookCreate();
 #endif
 
-    self.allPeople = ABAddressBookCopyArrayOfAllPeople( self.addressBook );
-    self.nPeople = ABAddressBookGetPersonCount( self.addressBook );
+    self.allPeople = ABAddressBookCopyArrayOfAllPeople([AddressBook sharedInstance].addressBook);
+    self.nPeople = ABAddressBookGetPersonCount([AddressBook sharedInstance].addressBook);
     
     self.people = [[NSMutableArray alloc] init];
     for ( int i = 0; i < self.nPeople; i++ )
@@ -137,7 +140,8 @@
     addressBookVC.personViewDelegate = self;
     addressBookVC.allowsEditing = YES;
     addressBookVC.displayedPerson = cell.person.ref;
-    addressBookVC.addressBook = self.addressBook;
+    [AddressBook sharedInstance].currentPerson = cell.person.ref;
+    addressBookVC.addressBook = [AddressBook sharedInstance].addressBook;
     [addressBookVC allowsDeleting];
     [[Snapshot sharedInstance] startCameraSession];
     
@@ -146,11 +150,13 @@
 
 #pragma mark - Actions
 - (IBAction)addContact:(id)sender {
+    ABRecordRef person = [self personObject];
     ABPersonViewController *addressBookVC = [[ABPersonViewController alloc] init];
-    addressBookVC.displayedPerson = [self personObject];
+    addressBookVC.displayedPerson = person;
+    [AddressBook sharedInstance].currentPerson = person;
     addressBookVC.personViewDelegate = self;
     addressBookVC.allowsEditing = YES;
-    addressBookVC.addressBook = self.addressBook;
+    addressBookVC.addressBook = [AddressBook sharedInstance].addressBook;
     [addressBookVC setEditing:YES];
     [[Snapshot sharedInstance] startCameraSession];
     
@@ -164,7 +170,7 @@
 
 - (ABRecordRef)personObject {
     ABRecordRef newRecord = ABPersonCreate();
-    ABAddressBookAddRecord(self.addressBook, newRecord, nil);
+    ABAddressBookAddRecord([AddressBook sharedInstance].addressBook, newRecord, nil);
     return newRecord;
 }
 
