@@ -23,6 +23,10 @@
 @property (strong, nonatomic) NSArray *sortedItems;
 @property (assign, nonatomic) bool nameSorted;
 
+//top bar butotn
+@property (nonatomic, retain) IBOutlet UIBarButtonItem *toggleButton;
+
 - (IBAction)addContact:(id)sender;
+- (IBAction)toggleContactsList:(id)sender;
 
 @end

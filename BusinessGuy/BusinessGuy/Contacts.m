@@ -106,6 +106,23 @@
             [eventsOnThisDay addObject:person];
         }
         self.sortedItems = [[self.sections allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    } else {
+        for (ABPerson *person in self.people) {
+            NSString *letter = [person.firstName substringToIndex:1];
+            if (letter == nil)
+                letter = @" ";
+            NSMutableArray *eventsOnThisLetter = [self.sections objectForKey:letter];
+            if (eventsOnThisLetter == nil) {
+                eventsOnThisLetter = [NSMutableArray array];
+                
+                // Use the reduced date as dictionary key to later retrieve the event list this day
+                [self.sections setObject:eventsOnThisLetter forKey:letter];
+            }
+            
+            // Add the event to the list for this day
+            [eventsOnThisLetter addObject:person];
+        }
+        self.sortedItems = [[self.sections allKeys] sortedArrayUsingSelector:@selector(compare:)];
     }
     
     [self.tableView reloadData];
@@ -198,6 +215,15 @@
     [[self navigationController] pushViewController:addressBookVC animated:YES];
 }
 
+- (IBAction)toggleContactsList:(id)sender {
+    self.nameSorted = !self.nameSorted;
+    if (self.nameSorted)
+        self.toggleButton.title = @"Name";
+    else
+        self.toggleButton.title = @"Date";
+    [self loadContacts];
+}
+
 #pragma mark - ABPersonDelegate
 - (BOOL)personViewController:(ABPersonViewController *)personViewController shouldPerformDefaultActionForPerson:(ABRecordRef)person property:(ABPropertyID)property identifier:(ABMultiValueIdentifier)identifier {
     return YES;
@@ -208,6 +234,7 @@
     ABAddressBookAddRecord([AddressBook sharedInstance].addressBook, newRecord, nil);
     return newRecord;
 }
+
 
 
 @end

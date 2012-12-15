@@ -44,12 +44,20 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Contacts" id="XVw-Cn-auM">
+                        <barButtonItem key="leftBarButtonItem" title="Date" id="NKf-68-TIC">
+                            <connections>
+                                <action selector="toggleContactsList:" destination="TF7-RM-BG9" id="cUw-uU-bl1"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="2pt-ea-j5T">
                             <connections>
                                 <action selector="addContact:" destination="TF7-RM-BG9" id="1lX-WR-7ej"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="toggleButton" destination="NKf-68-TIC" id="f96-cW-C5G"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="esW-Fp-CfE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -177,6 +185,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Contacts.h"/>
             <relationships>
                 <relationship kind="action" name="addContact:"/>
+                <relationship kind="action" name="toggleContactsList:"/>
+                <relationship kind="outlet" name="toggleButton" candidateClass="UIBarButtonItem"/>
             </relationships>
         </class>
         <class className="PhotoViewController" superclassName="UITableViewController">
