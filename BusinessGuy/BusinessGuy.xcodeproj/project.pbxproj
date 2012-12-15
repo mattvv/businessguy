@@ -32,6 +32,7 @@
 		B21D58D3166F243200A1F2B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B21D58D2166F243200A1F2B0 /* Default-568h@2x.png */; };
 		B23D84FC160E334F0099FFE3 /* InputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B23D84FB160E334F0099FFE3 /* InputCell.m */; };
 		B23D8504160E39890099FFE3 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B23D8503160E39890099FFE3 /* DetailCell.m */; };
+		B28D0878167D0D5E0036E978 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = B28D0877167D0D5E0036E978 /* NSDate+TimeAgo.m */; };
 		B2AAECED161A844B004D162F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AAECEC161A844B004D162F /* AddressBookUI.framework */; };
 		B2E7673715E81BCB000EB062 /* ABPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7673615E81BCB000EB062 /* ABPerson.m */; };
 		B2E7673D15E82957000EB062 /* ABPersonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7673C15E82957000EB062 /* ABPersonCell.m */; };
@@ -92,6 +93,8 @@
 		B23D84FB160E334F0099FFE3 /* InputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCell.m; sourceTree = "<group>"; };
 		B23D8502160E39890099FFE3 /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
 		B23D8503160E39890099FFE3 /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
+		B28D0876167D0D5E0036E978 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		B28D0877167D0D5E0036E978 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
 		B2AAECEC161A844B004D162F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		B2E7673515E81BCB000EB062 /* ABPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPerson.h; sourceTree = "<group>"; };
 		B2E7673615E81BCB000EB062 /* ABPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPerson.m; sourceTree = "<group>"; };
@@ -181,6 +184,7 @@
 		B216B87B15E8040B002C10F3 /* BusinessGuy */ = {
 			isa = PBXGroup;
 			children = (
+				B28D0874167D0D4A0036E978 /* NSDate */,
 				B2017CE61673CA4300F88DDC /* PageControl */,
 				B21D58CC166F231600A1F2B0 /* SVProgressHUD */,
 				B21D58C8166F1E4E00A1F2B0 /* Categories */,
@@ -264,6 +268,15 @@
 			);
 			path = SVProgressHUD;
 			sourceTree = SOURCE_ROOT;
+		};
+		B28D0874167D0D4A0036E978 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				B28D0876167D0D5E0036E978 /* NSDate+TimeAgo.h */,
+				B28D0877167D0D5E0036E978 /* NSDate+TimeAgo.m */,
+			);
+			name = NSDate;
+			sourceTree = "<group>";
 		};
 		B2E7673915E81FF7000EB062 /* Models */ = {
 			isa = PBXGroup;
@@ -394,6 +407,7 @@
 				B2017CE41673C52000F88DDC /* UIImage+RoundedCorner.m in Sources */,
 				B2017CE51673C52000F88DDC /* UIImage+Alpha.m in Sources */,
 				B2017CE91673CA4D00F88DDC /* CSPageControl.m in Sources */,
+				B28D0878167D0D5E0036E978 /* NSDate+TimeAgo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

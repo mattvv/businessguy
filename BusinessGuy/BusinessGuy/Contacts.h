@@ -18,6 +18,11 @@
 @property (nonatomic) CFIndex nPeople;
 @property (nonatomic, retain) NSMutableArray* people;
 
+//sorting sections
+@property (strong, nonatomic) NSMutableDictionary *sections;
+@property (strong, nonatomic) NSArray *sortedItems;
+@property (assign, nonatomic) bool nameSorted;
+
 - (IBAction)addContact:(id)sender;
 
 @end

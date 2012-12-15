@@ -13,6 +13,7 @@
 #import "SVProgressHUD.h"
 #import "Snapshot.h"
 #import "AddressBook.h"
+#import "NSDate+TimeAgo.h"
 
 @implementation Contacts
 
@@ -20,7 +21,7 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+        self.nameSorted = NO;
     }
     return self;
 }
@@ -81,8 +82,31 @@
     }
     
     //sort the dates.
-    NSSortDescriptor *descriptor = [NSSortDescriptor sortDescriptorWithKey:@"createdAt" ascending:NO];
+    NSSortDescriptor *descriptor;
+    descriptor = self.nameSorted ? [NSSortDescriptor sortDescriptorWithKey:@"firstName" ascending:NO] : [NSSortDescriptor sortDescriptorWithKey:@"createdAt" ascending:NO];
     [self.people sortUsingDescriptors:[NSArray arrayWithObject:descriptor]];
+    
+    self.sections = nil;
+//    self.sortedItems = nil;
+    self.sections = [NSMutableDictionary dictionary];
+//    self.sortedItems = [NSMutableArray array];
+    
+    if (!self.nameSorted) {
+        //sort by date! :D
+        for (ABPerson *person in self.people) {
+                NSMutableArray *eventsOnThisDay = [self.sections objectForKey:person.createdAt.timeAgo];
+            if (eventsOnThisDay == nil) {
+                eventsOnThisDay = [NSMutableArray array];
+                
+                // Use the reduced date as dictionary key to later retrieve the event list this day
+                [self.sections setObject:eventsOnThisDay forKey:person.createdAt.timeAgo];
+            }
+            
+            // Add the event to the list for this day
+            [eventsOnThisDay addObject:person];
+        }
+        self.sortedItems = [[self.sections allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    }
     
     [self.tableView reloadData];
 }
@@ -97,12 +121,19 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return [self.sections count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.nPeople;
+    NSDate *dateRepresentingThisDay = [self.sortedItems objectAtIndex:section];
+    NSArray *eventsOnThisDay = [self.sections objectForKey:dateRepresentingThisDay];
+    return [eventsOnThisDay count];
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    return [self.sortedItems objectAtIndex:section];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -110,7 +141,11 @@
     static NSString *CellIdentifier = @"Cell";
     ABPersonCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    ABPerson *person = [self.people objectAtIndex:[indexPath row]];
+    
+    NSDate *dateRepresentingThisDay = [self.sortedItems objectAtIndex:indexPath.section];
+    NSArray *eventsOnThisDay = [self.sections objectForKey:dateRepresentingThisDay];
+    ABPerson *person = [eventsOnThisDay objectAtIndex:indexPath.row];
+    
     NSString *firstName = person.firstName;
     if (firstName == nil)
         firstName = @"";
