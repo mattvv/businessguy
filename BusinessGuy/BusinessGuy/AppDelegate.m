@@ -26,7 +26,7 @@
         [AddressBook sharedInstance].photoDictionary = (NSMutableDictionary *) [NSKeyedUnarchiver unarchiveObjectWithData:data];
     }
     
-    [Appirater setAppId:@"552035781"];
+    [Appirater setAppId:@"809263969"];
     [Appirater setDaysUntilPrompt:1];
     [Appirater setUsesUntilPrompt:10];
     [Appirater setSignificantEventsUntilPrompt:-1];
