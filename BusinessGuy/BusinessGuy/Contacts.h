@@ -12,7 +12,7 @@
 #import <AddressBookUI/AddressBookUI.h>
 #import "ABPersonViewController+Extras.h"
 
-@interface Contacts : UITableViewController <UITableViewDataSource, UITableViewDelegate, ABPersonViewControllerDelegate>
+@interface Contacts : UITableViewController <UITableViewDataSource, UITableViewDelegate, ABPersonViewControllerDelegate, ABNewPersonViewControllerDelegate>
 
 @property (nonatomic) CFArrayRef allPeople;
 @property (nonatomic) CFIndex nPeople;

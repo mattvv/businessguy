@@ -10,6 +10,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <objc/runtime.h>
 #import "AddressBook.h"
+#import "Appirater.h"
 
 @implementation AppDelegate
 
@@ -24,6 +25,14 @@
         NSData *data = [defaults objectForKey:@"photoDictionary"];
         [AddressBook sharedInstance].photoDictionary = (NSMutableDictionary *) [NSKeyedUnarchiver unarchiveObjectWithData:data];
     }
+    
+    [Appirater setAppId:@"552035781"];
+    [Appirater setDaysUntilPrompt:1];
+    [Appirater setUsesUntilPrompt:10];
+    [Appirater setSignificantEventsUntilPrompt:-1];
+    [Appirater setTimeBeforeReminding:2];
+    [Appirater setDebug:YES];
+    
     return YES;
 }
 							

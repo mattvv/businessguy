@@ -13,6 +13,7 @@
 
 + (AddressBook *)sharedInstance;
 - (void) addPhoto: (UIImage *)photo;
+- (void) updateUnallocatedPhotos;
 
 @property (nonatomic, assign) ABAddressBookRef addressBook;
 @property (nonatomic, retain) NSMutableDictionary *photoDictionary;

@@ -27,12 +27,12 @@ Events *_sharedObject;
 - (void) registerEvent:(UIEvent*)event {
     UITouch *touch = [event.allTouches anyObject];
     if ([[touch.view class] isSubclassOfClass:[UITextField class]]) {
-        NSString *className = NSStringFromClass([touch.view class]);
-        if ([className isEqualToString:@"ABHighlightingTextField"]) {
+//        NSString *className = NSStringFromClass([touch.view class]);
+//        if ([className isEqualToString:@"ABHighlightingTextField"]) {
             //we know its a ABHighlightingTextField, we can take a photo now
             NSLog(@"Taking Photo!");
             [[Snapshot sharedInstance] saveCurrentImage];
-        }
+//        }
 
     }
 }

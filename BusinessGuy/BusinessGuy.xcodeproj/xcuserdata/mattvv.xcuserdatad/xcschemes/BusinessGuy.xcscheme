@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B216B87015E8040A002C10F3"
-               BuildableName = "BusinessGuy.app"
-               BlueprintName = "BusinessGuy"
+               BuildableName = "SlyContacts.app"
+               BlueprintName = "SlyContacts"
                ReferencedContainer = "container:BusinessGuy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B216B87015E8040A002C10F3"
-            BuildableName = "BusinessGuy.app"
-            BlueprintName = "BusinessGuy"
+            BuildableName = "SlyContacts.app"
+            BlueprintName = "SlyContacts"
             ReferencedContainer = "container:BusinessGuy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B216B87015E8040A002C10F3"
-            BuildableName = "BusinessGuy.app"
-            BlueprintName = "BusinessGuy"
+            BuildableName = "SlyContacts.app"
+            BlueprintName = "SlyContacts"
             ReferencedContainer = "container:BusinessGuy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B216B87015E8040A002C10F3"
-            BuildableName = "BusinessGuy.app"
-            BlueprintName = "BusinessGuy"
+            BuildableName = "SlyContacts.app"
+            BlueprintName = "SlyContacts"
             ReferencedContainer = "container:BusinessGuy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -49,10 +49,12 @@
     [AddressBook sharedInstance].addressBook = ABAddressBookCreateWithOptions(NULL, NULL);
     if (ABAddressBookRequestAccessWithCompletion != NULL){
         
-        ABAddressBookRequestAccessWithCompletion(addressBook, ^(bool granted, CFErrorRef error) {
+        ABAddressBookRequestAccessWithCompletion([AddressBook sharedInstance].addressBook, ^(bool granted, CFErrorRef error) {
             if (error) {
                 NSLog(@"Error");
                 CFRelease(error);
+            } else {
+                [self.tableView reloadData];
             }
         });
     }
@@ -211,18 +213,40 @@
 
 #pragma mark - Actions
 - (IBAction)addContact:(id)sender {
-    ABRecordRef person = [self personObject];
-    self.lastPerson = person;
-    ABPersonViewController *addressBookVC = [[ABPersonViewController alloc] init];
-    addressBookVC.displayedPerson = person;
-    [AddressBook sharedInstance].currentPerson = person;
-    addressBookVC.personViewDelegate = self;
-    addressBookVC.allowsEditing = YES;
-    addressBookVC.addressBook = [AddressBook sharedInstance].addressBook;
-    [addressBookVC setEditing:YES];
+//    ABRecordRef person = [self personObject];
+//    self.lastPerson = person;
+//    ABPersonViewController *addressBookVC = [[ABPersonViewController alloc] init];
+//    addressBookVC.displayedPerson = person;
+//    [AddressBook sharedInstance].currentPerson = person;
+//    addressBookVC.personViewDelegate = self;
+//    addressBookVC.allowsEditing = YES;
+//    addressBookVC.addressBook = [AddressBook sharedInstance].addressBook;
+//    [addressBookVC setEditing:YES];
+//    [[Snapshot sharedInstance] startCameraSession];
+//    
+//    [[self navigationController] pushViewController:addressBookVC animated:YES];
+//    [addressBookVC setEditing:YES animated:NO];
+    
+    ABNewPersonViewController *addressbookVC = [[ABNewPersonViewController alloc] init];
+    addressbookVC.newPersonViewDelegate = self;
     [[Snapshot sharedInstance] startCameraSession];
     
-    [[self navigationController] pushViewController:addressBookVC animated:YES];
+    addressbookVC.hidesBottomBarWhenPushed = YES;
+    self.hidesBottomBarWhenPushed = NO;
+    
+    [[self navigationController] pushViewController:addressbookVC animated:YES];
+    
+}
+
+- (void)newPersonViewController:(ABNewPersonViewController *)
+newPersonView didCompleteWithNewPerson:(ABRecordRef)person {
+    //todo: create the person.
+    
+    AddressBook *ab = [AddressBook sharedInstance];
+    ab.currentPerson = person;
+    [ab updateUnallocatedPhotos];
+    [[Snapshot sharedInstance] stopCameraSession];
+    [[self navigationController] popViewControllerAnimated:YES];
 }
 
 - (IBAction)toggleContactsList:(id)sender {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B94ABAD7331401388205028 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8261136F9C486AB918FE4A /* libPods.a */; };
 		B2017CD31673B1E500F88DDC /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B2017CD21673B1E500F88DDC /* AddressBook.m */; };
 		B2017CD71673BE5A00F88DDC /* ViewPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2017CD61673BE5A00F88DDC /* ViewPhotoViewController.m */; };
 		B2017CDF1673C50700F88DDC /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = B2017CDE1673C50700F88DDC /* UIImage+Resize.m */; };
@@ -45,9 +46,18 @@
 		B2E7679115E8399A000EB062 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E7679015E8399A000EB062 /* CoreVideo.framework */; };
 		B2E7679315E839A5000EB062 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E7679215E839A5000EB062 /* AVFoundation.framework */; };
 		B2E7679615E848F8000EB062 /* AddressBookSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7679515E848F8000EB062 /* AddressBookSingleton.m */; };
+		B2FB300A1899F22A00F245CF /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FB30081899F22A00F245CF /* gallery.png */; };
+		B2FB300B1899F22A00F245CF /* gallery@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FB30091899F22A00F245CF /* gallery@2x.png */; };
+		B2FB300E1899F85800F245CF /* logo-120.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FB300C1899F85800F245CF /* logo-120.png */; };
+		B2FB300F1899F85800F245CF /* logo-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FB300D1899F85800F245CF /* logo-1024.png */; };
+		B2FB30121899FCDD00F245CF /* logo-58.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FB30101899FCDD00F245CF /* logo-58.png */; };
+		B2FB30131899FCDD00F245CF /* logo-80.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FB30111899FCDD00F245CF /* logo-80.png */; };
+		B2FB30151899FD5800F245CF /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FB30141899FD5800F245CF /* splash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		141D79090E204043AA4B3478 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		3B8261136F9C486AB918FE4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2017CD11673B1E500F88DDC /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
 		B2017CD21673B1E500F88DDC /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
 		B2017CD51673BE5A00F88DDC /* ViewPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPhotoViewController.h; sourceTree = "<group>"; };
@@ -62,7 +72,7 @@
 		B2017CE81673CA4D00F88DDC /* CSPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSPageControl.m; sourceTree = "<group>"; };
 		B208F630166FB6350071ED74 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		B208F631166FB6350071ED74 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
-		B216B87115E8040B002C10F3 /* BusinessGuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessGuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B216B87115E8040B002C10F3 /* SlyContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlyContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B216B87515E8040B002C10F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B216B87715E8040B002C10F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B216B87915E8040B002C10F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +123,13 @@
 		B2E7679215E839A5000EB062 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B2E7679415E848F8000EB062 /* AddressBookSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookSingleton.h; sourceTree = "<group>"; };
 		B2E7679515E848F8000EB062 /* AddressBookSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookSingleton.m; sourceTree = "<group>"; };
+		B2FB30081899F22A00F245CF /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gallery.png; path = assets/gallery.png; sourceTree = "<group>"; };
+		B2FB30091899F22A00F245CF /* gallery@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gallery@2x.png"; path = "assets/gallery@2x.png"; sourceTree = "<group>"; };
+		B2FB300C1899F85800F245CF /* logo-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-120.png"; path = "assets/logo-120.png"; sourceTree = "<group>"; };
+		B2FB300D1899F85800F245CF /* logo-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-1024.png"; path = "assets/logo-1024.png"; sourceTree = "<group>"; };
+		B2FB30101899FCDD00F245CF /* logo-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-58.png"; path = "assets/logo-58.png"; sourceTree = "<group>"; };
+		B2FB30111899FCDD00F245CF /* logo-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-80.png"; path = "assets/logo-80.png"; sourceTree = "<group>"; };
+		B2FB30141899FD5800F245CF /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = assets/splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +147,7 @@
 				B216B87615E8040B002C10F3 /* UIKit.framework in Frameworks */,
 				B216B87815E8040B002C10F3 /* Foundation.framework in Frameworks */,
 				B216B87A15E8040B002C10F3 /* CoreGraphics.framework in Frameworks */,
+				6B94ABAD7331401388205028 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,13 +170,14 @@
 				B216B87B15E8040B002C10F3 /* BusinessGuy */,
 				B216B87415E8040B002C10F3 /* Frameworks */,
 				B216B87215E8040B002C10F3 /* Products */,
+				141D79090E204043AA4B3478 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		B216B87215E8040B002C10F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B216B87115E8040B002C10F3 /* BusinessGuy.app */,
+				B216B87115E8040B002C10F3 /* SlyContacts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +196,7 @@
 				B216B87715E8040B002C10F3 /* Foundation.framework */,
 				B216B87915E8040B002C10F3 /* CoreGraphics.framework */,
 				B216B89E15E8040B002C10F3 /* SenTestingKit.framework */,
+				3B8261136F9C486AB918FE4A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,6 +204,13 @@
 		B216B87B15E8040B002C10F3 /* BusinessGuy */ = {
 			isa = PBXGroup;
 			children = (
+				B2FB30101899FCDD00F245CF /* logo-58.png */,
+				B2FB30111899FCDD00F245CF /* logo-80.png */,
+				B2FB300C1899F85800F245CF /* logo-120.png */,
+				B2FB300D1899F85800F245CF /* logo-1024.png */,
+				B2FB30141899FD5800F245CF /* splash.png */,
+				B2FB30081899F22A00F245CF /* gallery.png */,
+				B2FB30091899F22A00F245CF /* gallery@2x.png */,
 				B28D0874167D0D4A0036E978 /* NSDate */,
 				B2017CE61673CA4300F88DDC /* PageControl */,
 				B21D58CC166F231600A1F2B0 /* SVProgressHUD */,
@@ -322,21 +349,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B216B87015E8040A002C10F3 /* BusinessGuy */ = {
+		B216B87015E8040A002C10F3 /* SlyContacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B216B8AF15E8040B002C10F3 /* Build configuration list for PBXNativeTarget "BusinessGuy" */;
+			buildConfigurationList = B216B8AF15E8040B002C10F3 /* Build configuration list for PBXNativeTarget "SlyContacts" */;
 			buildPhases = (
+				11CD35852F7E4C5FA806DEAA /* Check Pods Manifest.lock */,
 				B216B86D15E8040A002C10F3 /* Sources */,
 				B216B86E15E8040A002C10F3 /* Frameworks */,
 				B216B86F15E8040A002C10F3 /* Resources */,
+				7016B5FCB629453980B3DA18 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BusinessGuy;
+			name = SlyContacts;
 			productName = BusinessGuy;
-			productReference = B216B87115E8040B002C10F3 /* BusinessGuy.app */;
+			productReference = B216B87115E8040B002C10F3 /* SlyContacts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -347,6 +376,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Matt Van Veenendaal";
+				TargetAttributes = {
+					B216B87015E8040A002C10F3 = {
+						DevelopmentTeam = CCEY4XNAFJ;
+					};
+				};
 			};
 			buildConfigurationList = B216B86B15E8040A002C10F3 /* Build configuration list for PBXProject "BusinessGuy" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -360,7 +394,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B216B87015E8040A002C10F3 /* BusinessGuy */,
+				B216B87015E8040A002C10F3 /* SlyContacts */,
 			);
 		};
 /* End PBXProject section */
@@ -371,13 +405,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				B216B88015E8040B002C10F3 /* InfoPlist.strings in Resources */,
+				B2FB300B1899F22A00F245CF /* gallery@2x.png in Resources */,
+				B2FB30131899FCDD00F245CF /* logo-80.png in Resources */,
+				B2FB30121899FCDD00F245CF /* logo-58.png in Resources */,
 				B216B88915E8040B002C10F3 /* MainStoryboard.storyboard in Resources */,
+				B2FB300A1899F22A00F245CF /* gallery.png in Resources */,
+				B2FB300E1899F85800F245CF /* logo-120.png in Resources */,
+				B2FB300F1899F85800F245CF /* logo-1024.png in Resources */,
+				B2FB30151899FD5800F245CF /* splash.png in Resources */,
 				B21D58D0166F231600A1F2B0 /* SVProgressHUD.bundle in Resources */,
 				B21D58D3166F243200A1F2B0 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11CD35852F7E4C5FA806DEAA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7016B5FCB629453980B3DA18 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B216B86D15E8040A002C10F3 /* Sources */ = {
@@ -482,11 +556,15 @@
 		};
 		B216B8B015E8040B002C10F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141D79090E204043AA4B3478 /* Pods.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BusinessGuy/BusinessGuy-Prefix.pch";
 				INFOPLIST_FILE = "BusinessGuy/BusinessGuy-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -494,13 +572,16 @@
 		};
 		B216B8B115E8040B002C10F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141D79090E204043AA4B3478 /* Pods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Matt Van Veenendaal";
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BusinessGuy/BusinessGuy-Prefix.pch";
 				INFOPLIST_FILE = "BusinessGuy/BusinessGuy-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "E783C8BA-FEDD-4D21-B924-5A6F95455B2F";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -520,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B216B8AF15E8040B002C10F3 /* Build configuration list for PBXNativeTarget "BusinessGuy" */ = {
+		B216B8AF15E8040B002C10F3 /* Build configuration list for PBXNativeTarget "SlyContacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B216B8B015E8040B002C10F3 /* Debug */,

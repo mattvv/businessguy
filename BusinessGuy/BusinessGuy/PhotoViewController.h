@@ -10,4 +10,6 @@
 
 @interface PhotoViewController : UITableViewController
 
+@property (nonatomic, retain) IBOutlet UIView *theSkinny;
+
 @end

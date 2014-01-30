@@ -54,6 +54,25 @@ AddressBook *_sharedObject;
     [userDefaults synchronize];
 }
 
+- (void) updateUnallocatedPhotos {
+    if ([self.photoDictionary objectForKey:[NSNumber numberWithInt:-1]]) {
+        NSLog(@"We have photos in the non number! Move to the new number!");
+        ABRecordID recordID = ABRecordGetRecordID(self.currentPerson);
+        NSNumber *recordNumber = [NSNumber numberWithInt:recordID];
+        if (recordNumber != [NSNumber numberWithInt:-1]) {
+            NSLog(@"We have a new Person!");
+            [self.photoDictionary setObject:[self.photoDictionary objectForKey:[NSNumber numberWithInt:-1]] forKey:recordNumber];
+            //clear the photos that were around.
+            [self.photoDictionary removeObjectForKey:[NSNumber numberWithInt:-1]];
+            
+            NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+            NSData *data = [NSKeyedArchiver archivedDataWithRootObject:[AddressBook sharedInstance].photoDictionary];
+            [userDefaults setObject:data forKey:@"photoDictionary"];
+            [userDefaults synchronize];
+        }
+    }
+}
+
 - (void)receiveEvent:(NSNotification *)notification {
     NSNumber *recordNumber = [[notification userInfo] valueForKey:@"recordNumber"];
     

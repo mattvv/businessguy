@@ -13,7 +13,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.scrollView.frame = CGRectMake(0,0,320,480);
+//    self.scrollView.frame = CGRectMake(0,0,320,480);
     self.scrollView.contentSize = CGSizeMake(self.scrollView.bounds.size.width * [self.photos count], self.scrollView.bounds.size.height);
     
     int count = 0;

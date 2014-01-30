@@ -21,11 +21,25 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [[AddressBook sharedInstance].photoDictionary count];
+    if ([[AddressBook sharedInstance].photoDictionary count] > 0) {
+        return [[AddressBook sharedInstance].photoDictionary count];
+    } else {
+        return 1;
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if ([[AddressBook sharedInstance].photoDictionary count] == 0) {
+        self.tableView.tableFooterView = self.theSkinny;
+        UITableViewCell *cell = [[UITableViewCell alloc] init];
+        cell.textLabel.text = @"";
+        //whatever else to configure your one cell you're going to return
+        return cell;
+
+    } else {
+        self.tableView.tableFooterView = nil;
+    }
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyIdentifier"];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"MyIdentifier"];
