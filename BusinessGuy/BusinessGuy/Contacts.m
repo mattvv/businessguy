@@ -33,6 +33,10 @@
 }
 
 - (void) viewWillAppear:(BOOL)animated {
+    ABRecordID recordID = ABRecordGetRecordID(self.lastPerson);
+    NSNumber *recordNumber = [NSNumber numberWithInt:recordID];
+    NSDictionary *userInfo = [NSDictionary dictionaryWithObject:recordNumber forKey:@"recordNumber"];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"gotRecordNumber" object:nil userInfo:userInfo];
     [super viewWillAppear:animated];
     [self loadContacts];
     [[Snapshot sharedInstance] stopCameraSession];
@@ -150,7 +154,12 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    return [self.sortedItems objectAtIndex:section];
+    NSString *title = [self.sortedItems objectAtIndex:section];
+    if ([title length] > 2)
+        if ([title characterAtIndex:2] == ')')
+            title = [title substringFromIndex:4];
+    
+    return title;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -194,7 +203,7 @@
     addressBookVC.displayedPerson = cell.person.ref;
     [AddressBook sharedInstance].currentPerson = cell.person.ref;
     addressBookVC.addressBook = [AddressBook sharedInstance].addressBook;
-    [addressBookVC allowsDeleting];
+//    [addressBookVC allowsDeleting];
     [[Snapshot sharedInstance] startCameraSession];
     
     [[self navigationController] pushViewController:addressBookVC animated:YES];
@@ -203,6 +212,7 @@
 #pragma mark - Actions
 - (IBAction)addContact:(id)sender {
     ABRecordRef person = [self personObject];
+    self.lastPerson = person;
     ABPersonViewController *addressBookVC = [[ABPersonViewController alloc] init];
     addressBookVC.displayedPerson = person;
     [AddressBook sharedInstance].currentPerson = person;

@@ -26,6 +26,8 @@ AddressBook *_sharedObject;
     if (!(self = [super init])) return self;
     self.photoDictionary = [NSMutableDictionary dictionary];
     return self;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receiveEvent:) name:@"gotRecordNumber" object:nil];
+
 }
 
 - (void) addPhoto: (UIImage *)photo {
@@ -50,6 +52,22 @@ AddressBook *_sharedObject;
     NSData *data = [NSKeyedArchiver archivedDataWithRootObject:[AddressBook sharedInstance].photoDictionary];
     [userDefaults setObject:data forKey:@"photoDictionary"];
     [userDefaults synchronize];
+}
+
+- (void)receiveEvent:(NSNotification *)notification {
+    NSNumber *recordNumber = [[notification userInfo] valueForKey:@"recordNumber"];
+    
+    NSMutableArray *photoList;
+    if ([self.photoDictionary objectForKey:recordNumber])
+        photoList = (NSMutableArray *) [self.photoDictionary objectForKey:recordNumber];
+    else {
+        photoList = [NSMutableArray array];
+        [self.photoDictionary setObject:photoList forKey:recordNumber];
+    }
+    
+    NSArray *oldPhotos = [self.photoDictionary objectForKey:[NSNumber numberWithInt:-1]];
+    [photoList addObjectsFromArray:oldPhotos];
+    [self.photoDictionary removeObjectForKey:[NSNumber numberWithInt:-1]];
 }
 
 NSString *uniqueSavePath() {

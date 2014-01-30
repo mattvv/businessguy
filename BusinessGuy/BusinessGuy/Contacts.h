@@ -16,7 +16,9 @@
 
 @property (nonatomic) CFArrayRef allPeople;
 @property (nonatomic) CFIndex nPeople;
-@property (nonatomic, retain) NSMutableArray* people;
+@property (nonatomic, strong) NSMutableArray* people;
+
+@property (nonatomic, assign) ABRecordRef lastPerson;
 
 //sorting sections
 @property (strong, nonatomic) NSMutableDictionary *sections;
