@@ -35,6 +35,7 @@
 		B23D8504160E39890099FFE3 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B23D8503160E39890099FFE3 /* DetailCell.m */; };
 		B28D0878167D0D5E0036E978 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = B28D0877167D0D5E0036E978 /* NSDate+TimeAgo.m */; };
 		B2AAECED161A844B004D162F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AAECEC161A844B004D162F /* AddressBookUI.framework */; };
+		B2ABCCAB18AC41C400DB4892 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ABCCAA18AC41C400DB4892 /* AudioToolbox.framework */; };
 		B2E7673715E81BCB000EB062 /* ABPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7673615E81BCB000EB062 /* ABPerson.m */; };
 		B2E7673D15E82957000EB062 /* ABPersonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7673C15E82957000EB062 /* ABPersonCell.m */; };
 		B2E7678315E83884000EB062 /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7678215E83884000EB062 /* CameraImageHelper.m */; };
@@ -106,6 +107,7 @@
 		B28D0876167D0D5E0036E978 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
 		B28D0877167D0D5E0036E978 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
 		B2AAECEC161A844B004D162F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		B2ABCCAA18AC41C400DB4892 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B2E7673515E81BCB000EB062 /* ABPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPerson.h; sourceTree = "<group>"; };
 		B2E7673615E81BCB000EB062 /* ABPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPerson.m; sourceTree = "<group>"; };
 		B2E7673B15E82957000EB062 /* ABPersonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPersonCell.h; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2ABCCAB18AC41C400DB4892 /* AudioToolbox.framework in Frameworks */,
 				B2AAECED161A844B004D162F /* AddressBookUI.framework in Frameworks */,
 				B2E7679315E839A5000EB062 /* AVFoundation.framework in Frameworks */,
 				B2E7679115E8399A000EB062 /* CoreVideo.framework in Frameworks */,
@@ -185,6 +188,7 @@
 		B216B87415E8040B002C10F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B2ABCCAA18AC41C400DB4892 /* AudioToolbox.framework */,
 				B2AAECEC161A844B004D162F /* AddressBookUI.framework */,
 				B2E7679215E839A5000EB062 /* AVFoundation.framework */,
 				B2E7679015E8399A000EB062 /* CoreVideo.framework */,
@@ -559,12 +563,12 @@
 			baseConfigurationReference = 141D79090E204043AA4B3478 /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BusinessGuy/BusinessGuy-Prefix.pch";
 				INFOPLIST_FILE = "BusinessGuy/BusinessGuy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -575,16 +579,15 @@
 			baseConfigurationReference = 141D79090E204043AA4B3478 /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Matt Van Veenendaal (CCEY4XNAFJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BusinessGuy/BusinessGuy-Prefix.pch";
 				INFOPLIST_FILE = "BusinessGuy/BusinessGuy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "E783C8BA-FEDD-4D21-B924-5A6F95455B2F";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "2AD519D3-6881-421F-9AE4-B726583A0BEE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -10,6 +10,9 @@
 #import "AddressBook.h"
 #import "UIImage+Resize.h"
 
+// Required import... Also need AudioToolbox.framework
+#import <AudioToolbox/AudioToolbox.h>
+
 @implementation Snapshot
 
 Snapshot *_sharedObject;
@@ -70,6 +73,9 @@ Snapshot *_sharedObject;
     
     source = [source resizedImage:r.size interpolationQuality:kCGInterpolationHigh];
     [[AddressBook sharedInstance] addPhoto:source];
+    // ivar
+    // Play the sound
+    AudioServicesPlaySystemSound(1108);
 }
 
 @end
