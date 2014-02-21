@@ -178,6 +178,13 @@
     // Retrieve the selected camera
     AVCaptureDevice *device = isUsingFrontCamera ? [CameraImageHelper frontCamera] : [CameraImageHelper backCamera];
     
+    if ([device isFocusModeSupported:AVCaptureFocusModeContinuousAutoFocus] && [device lockForConfiguration:&error]) {
+        [device setFocusMode:AVCaptureFocusModeContinuousAutoFocus];
+        if ([device isFocusPointOfInterestSupported])
+            [device setFocusPointOfInterest:CGPointMake(0.5f,0.5f)];
+        [device unlockForConfiguration];
+    }
+    
     // Create the capture input
     AVCaptureDeviceInput *captureInput = [AVCaptureDeviceInput deviceInputWithDevice:device error:&error];
     if (!captureInput)
