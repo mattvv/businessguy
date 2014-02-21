@@ -48,8 +48,6 @@
 
 
 - (void)loadContacts {
-    
-#if __IPHONE_OS_VERSION_MIN_REQUIRED > 60000
     [AddressBook sharedInstance].addressBook = ABAddressBookCreateWithOptions(NULL, NULL);
     if (ABAddressBookRequestAccessWithCompletion != NULL){
         
@@ -62,9 +60,8 @@
             }
         });
     }
-#else
-    [AddressBook sharedInstance].addressBook = ABAddressBookCreate();
-#endif
+    
+    [[AddressBook sharedInstance] checkIfContactDeleted];
 
     self.allPeople = ABAddressBookCopyArrayOfAllPeople([AddressBook sharedInstance].addressBook);
     self.nPeople = ABAddressBookGetPersonCount([AddressBook sharedInstance].addressBook);

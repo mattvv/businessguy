@@ -103,4 +103,21 @@ NSString *uniqueSavePath() {
 }
 
 
+- (void)checkIfContactDeleted {
+    for (NSNumber *recordNumber in [self.photoDictionary allKeys]) {
+        ABRecordID  recordID = (ABRecordID) [recordNumber intValue];
+        ABRecordRef person = ABAddressBookGetPersonWithRecordID([AddressBook sharedInstance].addressBook, recordID);
+        ABRecordID newRecordId = ABRecordGetRecordID(person);
+        NSNumber *checkedNumber = [NSNumber numberWithInt:newRecordId];
+        if (checkedNumber == [NSNumber numberWithInt:-1]) {
+            [self.photoDictionary removeObjectForKey:recordNumber];
+        }
+    }
+    
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:[AddressBook sharedInstance].photoDictionary];
+    [userDefaults setObject:data forKey:@"photoDictionary"];
+    [userDefaults synchronize];
+}
+
 @end
