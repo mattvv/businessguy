@@ -1,10 +1,13 @@
 PODS:
   - Appirater (2.0.2)
+  - UIAlertView+Blocks (0.8)
 
 DEPENDENCIES:
   - Appirater
+  - UIAlertView+Blocks
 
 SPEC CHECKSUMS:
   Appirater: 32fb9089615b5e542c7ad7b5749741a8aed55290
+  UIAlertView+Blocks: 39a1aee8ea75c4f9f877ff0b3734d84bf2009d1f
 
 COCOAPODS: 0.29.0

@@ -14,6 +14,7 @@
 #import "Snapshot.h"
 #import "AddressBook.h"
 #import "NSDate+TimeAgo.h"
+#import "UIAlertView+Blocks.h"
 
 @implementation Contacts
 
@@ -213,6 +214,9 @@
 //    [addressBookVC allowsDeleting];
     [[Snapshot sharedInstance] startCameraSession];
     
+    [addressBookVC setAllowsEditing:YES];
+    [addressBookVC setAllowsActions:YES];
+    
     [[self navigationController] pushViewController:addressBookVC animated:YES];
 }
 
@@ -275,6 +279,37 @@ newPersonView didCompleteWithNewPerson:(ABRecordRef)person {
     return newRecord;
 }
 
+#pragma mark - Delete Contacts
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Return YES if you want the specified item to be editable.
+    return YES;
+}
+
+// Override to support editing the table view.
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        //add code here for when you hit delete
+        //console.log delete this contact
+        ABPersonCell *cell = (ABPersonCell *) [self.tableView cellForRowAtIndexPath:indexPath];
+        
+        __block ABRecordRef personRef = cell.person.ref;
+        
+        [UIAlertView showWithTitle:@"Confirm"
+                           message:[NSString stringWithFormat:@"Are you sure you want to delete this contact, %@ %@", cell.person.firstName ?: @"", cell.person.lastName ?: @""]
+                 cancelButtonTitle:@"Cancel"
+                 otherButtonTitles:@[@"Yes"]
+                          tapBlock:^(UIAlertView *alertView, NSInteger buttonIndex) {
+                              if (buttonIndex == [alertView cancelButtonIndex]) {
+                                  NSLog(@"Cancelled");
+                              } else {
+                                  NSLog(@"Have a cold beer");
+                                  ABAddressBookRemoveRecord([AddressBook sharedInstance].addressBook, personRef, nil);
+                                  ABAddressBookSave([AddressBook sharedInstance].addressBook, nil);
+                                  [self loadContacts];
+                              }
+                          }];
+    }
+}
 
 
 @end

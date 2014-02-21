@@ -7,32 +7,42 @@
 		<key>Appirater.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Pods-Appirater.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
+		</dict>
+		<key>Pods-UIAlertView+Blocks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>84DFD92B52604B50B7A95459</key>
+		<key>35926643A8844048B01B3EA9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>954C4EBBA6A14D8E955B0BE0</key>
+		<key>B096532DA4F246EA900ADCBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BD8D0CFB9FBB4F7AA672487E</key>
+		<key>B3215FB1D50C41A6B62419A8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9D6B0539C1B4776B26D6750</key>
 		<dict>
 			<key>primary</key>
 			<true/>
