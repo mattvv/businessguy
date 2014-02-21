@@ -44,9 +44,9 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"MyIdentifier"];
     }
-
+    
     NSNumber *recordNumber = [[[AddressBook sharedInstance].photoDictionary allKeys] objectAtIndex:indexPath.row];
-    ABRecordID recordID = (ABRecordID) [recordNumber intValue];
+    ABRecordID  recordID = (ABRecordID) [recordNumber intValue];
     ABRecordRef person = ABAddressBookGetPersonWithRecordID([AddressBook sharedInstance].addressBook, recordID);
     cell.textLabel.text = CFBridgingRelease(ABRecordCopyValue(person, kABPersonFirstNameProperty));
     cell.detailTextLabel.text = CFBridgingRelease(ABRecordCopyValue(person, kABPersonLastNameProperty));

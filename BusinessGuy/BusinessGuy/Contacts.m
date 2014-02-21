@@ -305,6 +305,7 @@ newPersonView didCompleteWithNewPerson:(ABRecordRef)person {
                                   NSLog(@"Have a cold beer");
                                   ABAddressBookRemoveRecord([AddressBook sharedInstance].addressBook, personRef, nil);
                                   ABAddressBookSave([AddressBook sharedInstance].addressBook, nil);
+                                  
                                   [self loadContacts];
                               }
                           }];
