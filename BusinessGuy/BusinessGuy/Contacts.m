@@ -293,7 +293,7 @@ newPersonView didCompleteWithNewPerson:(ABRecordRef)person {
         
         [UIAlertView showWithTitle:@"Confirm"
                            message:[NSString stringWithFormat:@"Are you sure you want to delete this contact, %@ %@", cell.person.firstName ?: @"", cell.person.lastName ?: @""]
-                 cancelButtonTitle:@"Cancel"
+                 cancelButtonTitle:@"No"
                  otherButtonTitles:@[@"Yes"]
                           tapBlock:^(UIAlertView *alertView, NSInteger buttonIndex) {
                               if (buttonIndex == [alertView cancelButtonIndex]) {
