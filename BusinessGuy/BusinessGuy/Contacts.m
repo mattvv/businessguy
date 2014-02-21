@@ -206,6 +206,8 @@
     addressBookVC.personViewDelegate = self;
     addressBookVC.allowsEditing = YES;
     addressBookVC.displayedPerson = cell.person.ref;
+    
+    NSLog(@"Editing Person: %@", cell.person.ref);
     [AddressBook sharedInstance].currentPerson = cell.person.ref;
     addressBookVC.addressBook = [AddressBook sharedInstance].addressBook;
 //    [addressBookVC allowsDeleting];
@@ -229,7 +231,7 @@
 //    
 //    [[self navigationController] pushViewController:addressBookVC animated:YES];
 //    [addressBookVC setEditing:YES animated:NO];
-    
+    [AddressBook sharedInstance].currentPerson = nil;
     ABNewPersonViewController *addressbookVC = [[ABNewPersonViewController alloc] init];
     addressbookVC.newPersonViewDelegate = self;
     [[Snapshot sharedInstance] startCameraSession];
@@ -246,6 +248,7 @@ newPersonView didCompleteWithNewPerson:(ABRecordRef)person {
     //todo: create the person.
     
     AddressBook *ab = [AddressBook sharedInstance];
+    NSLog(@"New Person, Setting to  %@", person);
     ab.currentPerson = person;
     [ab updateUnallocatedPhotos];
     [[Snapshot sharedInstance] stopCameraSession];

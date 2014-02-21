@@ -33,7 +33,9 @@ AddressBook *_sharedObject;
 - (void) addPhoto: (UIImage *)photo {
     //write photo to disk and save the address in the array:
     NSMutableArray *photoList;
+    NSLog(@"Adding Photo to PersonID: %@", self.currentPerson);
     ABRecordID recordID = ABRecordGetRecordID(self.currentPerson);
+
     NSNumber *recordNumber = [NSNumber numberWithInt:recordID];
     
     NSData *imageData = UIImageJPEGRepresentation(photo, 0.8);
