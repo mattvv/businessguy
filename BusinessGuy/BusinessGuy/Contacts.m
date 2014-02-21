@@ -40,6 +40,9 @@
     [super viewWillAppear:animated];
     [self loadContacts];
     [[Snapshot sharedInstance] stopCameraSession];
+    
+    //manually set brightness for a bright capture.
+    [UIScreen mainScreen].brightness = 1.0;
 }
 
 
