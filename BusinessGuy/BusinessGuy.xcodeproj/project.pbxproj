@@ -36,6 +36,7 @@
 		B28D0878167D0D5E0036E978 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = B28D0877167D0D5E0036E978 /* NSDate+TimeAgo.m */; };
 		B2AAECED161A844B004D162F /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AAECEC161A844B004D162F /* AddressBookUI.framework */; };
 		B2ABCCAB18AC41C400DB4892 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ABCCAA18AC41C400DB4892 /* AudioToolbox.framework */; };
+		B2BE2BAF18BBE2C500F4288E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2BE2BAE18BBE2C500F4288E /* Images.xcassets */; };
 		B2E7673715E81BCB000EB062 /* ABPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7673615E81BCB000EB062 /* ABPerson.m */; };
 		B2E7673D15E82957000EB062 /* ABPersonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7673C15E82957000EB062 /* ABPersonCell.m */; };
 		B2E7678315E83884000EB062 /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7678215E83884000EB062 /* CameraImageHelper.m */; };
@@ -108,6 +109,7 @@
 		B28D0877167D0D5E0036E978 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
 		B2AAECEC161A844B004D162F /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		B2ABCCAA18AC41C400DB4892 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B2BE2BAE18BBE2C500F4288E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SlyContacts/Images.xcassets; sourceTree = "<group>"; };
 		B2E7673515E81BCB000EB062 /* ABPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPerson.h; sourceTree = "<group>"; };
 		B2E7673615E81BCB000EB062 /* ABPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPerson.m; sourceTree = "<group>"; };
 		B2E7673B15E82957000EB062 /* ABPersonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPersonCell.h; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		B216B86615E8040A002C10F3 = {
 			isa = PBXGroup;
 			children = (
+				B2BE2BAE18BBE2C500F4288E /* Images.xcassets */,
 				B21D58D2166F243200A1F2B0 /* Default-568h@2x.png */,
 				B216B87B15E8040B002C10F3 /* BusinessGuy */,
 				B216B87415E8040B002C10F3 /* Frameworks */,
@@ -417,6 +420,7 @@
 				B2FB300E1899F85800F245CF /* logo-120.png in Resources */,
 				B2FB300F1899F85800F245CF /* logo-1024.png in Resources */,
 				B2FB30151899FD5800F245CF /* splash.png in Resources */,
+				B2BE2BAF18BBE2C500F4288E /* Images.xcassets in Resources */,
 				B21D58D0166F231600A1F2B0 /* SVProgressHUD.bundle in Resources */,
 				B21D58D3166F243200A1F2B0 /* Default-568h@2x.png in Resources */,
 			);
@@ -563,6 +567,8 @@
 			baseConfigurationReference = 141D79090E204043AA4B3478 /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -581,6 +587,8 @@
 			baseConfigurationReference = 141D79090E204043AA4B3478 /* Pods.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
